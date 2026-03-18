@@ -1,0 +1,30 @@
+# ResearchAgentSystem Configuration
+
+project_name: "ResearchAgentSystem_v19"
+session_dir: ".sessions"
+log_level: INFO
+
+execution:
+  auto_confirm: false
+  parallel_agents: true
+  max_parallel: 3
+  tool_timeout: 30
+  tool_retries: 2
+  max_tool_iterations: 6
+  parallel_tools: true
+  output_format: "structured"
+  on_failure_default: "skip"  # "skip" | "stop" | "retry"
+
+self_improvement:
+  enabled: true
+  max_lessons: 200
+  auto_detect: true
+  feedback_detection: true
+
+autoresearch:
+  default_timeout: 300
+  default_max_experiments: 100
+  default_metric_direction: "minimize"
+  results_dir: "5_Experiments_Simulations"
+  config_template: "experiment_config_template.yaml"
+  ai_config_file: ".aimodel"

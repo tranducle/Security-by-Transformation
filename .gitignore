@@ -1,0 +1,24 @@
+# Session data
+.sessions/
+
+# Log files
+*.log
+agent_system.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Output files
+research_insights.md
+Web_Resources_Audit.md
+
+# Environment overrides
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db

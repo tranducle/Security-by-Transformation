@@ -1,0 +1,26 @@
+{
+  "agent_context": {
+    "name": "LiteratureHunter",
+    "domain": "Research",
+    "role": "",
+    "goal": ""
+  },
+  "user_request": "backward compat test",
+  "tool_results": [],
+  "tool_errors": [],
+  "memory_context": {},
+  "execution_metadata": {
+    "tools_executed": 0,
+    "tools_success": 0,
+    "tools_failed": 0,
+    "tools_skipped": 0,
+    "total_duration_ms": 0,
+    "pipeline_route": "Research/LiteratureHunter"
+  },
+  "requires_approval": true,
+  "synthesis_instructions": "IMPORTANT: This agent requires user approval before proceeding. Present the tool results below to the user and ask: 'Do you want to proceed with these results?' Do NOT synthesize a final response until the user approves.",
+  "quality_assessment": {
+    "quality_score": 1.0,
+    "issues": []
+  }
+}

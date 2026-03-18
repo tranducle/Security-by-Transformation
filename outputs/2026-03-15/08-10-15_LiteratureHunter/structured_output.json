@@ -1,0 +1,229 @@
+{
+  "agent_context": {
+    "name": "LiteratureHunter",
+    "domain": "Research & Discovery",
+    "role": "LITERATURE HUNTER (Lead Research Coordinator)",
+    "goal": "You are the **Lead Research Coordinator** who orchestrates comprehensive literature searches. You don't just search—you coordinate a multi-source investigation to ensure complete coverage. You MUST use the literature_tools.py functions for all academic searches."
+  },
+  "user_request": "find literature on AI",
+  "tool_results": [
+    {
+      "tool_name": "search_openalex_sync",
+      "args": {
+        "query": "find literature on AI",
+        "limit": 30
+      },
+      "result": "[\"Paper(title='New Era of Artificial Intelligence in Education: Towards a Sustainable Multifaceted Revolution', authors=['Firuz Kamalov', 'David Santandreu Calonge', 'Ikhlaas Gurrib'], year=2023, abstract='The recent high performance of ChatGPT on several standardized academic tests has thrust the topic of artificial intelligence (AI) into the mainstream conversation about the future of education. As deep learning is poised to shift the teaching paradigm, it is essential to have a clear understanding of its effects on the current education system to ensure sustainable development and deployment of AI-driven technologies at schools and universities. This research aims to investigate the potential impact of AI on education through review and analysis of the existing literature across three major axes: applications, advantages, and challenges. Our review focuses on the use of artificial intelligence in collaborative teacher\\u2013student learning, intelligent tutoring systems, automated assessment, and personalized learning. We also report on the potential negative aspects, ethical issues, and possible future routes for AI implementation in education. Ultimately, we find that the only way forward is to embrace the new technology, while implementing guardrails to prevent its abuse.', doi='10.3390/su151612451', url='https://openalex.org/W4385878593', citation_count=820, source='openalex')\", \"Paper(title='Artificial intelligence in online higher education: A systematic review of empirical research from 2011 to 2020', authors=['Fan Ouyang', 'Luyi Zheng', 'Pengcheng Jiao'], year=2022, abstract=None, doi='10.1007/s10639-022-10925-9', url='https://openalex.org/W4214643205', citation_count=651, source='openalex')\", \"Paper(title='Artificial intelligence applications in supply chain management', authors=['Mehrdokht Pournader', '\\\\u202cHadi Ghaderi', 'Amir Hassanzadegan', 'Behnam Fahimnia'], year=2021, abstract=None, doi='10.1016/j.ijpe.2021.108250', url='https://openalex.org/W3192208786', citation_count=444, source='openalex')\", \"Paper(title='A systematic review of Explainable Artificial Intelligence models and applications: Recent developments and future trends', authors=['A. Saranya', 'R. Subhashini'], year=2023, abstract='Artificial Intelligence (AI) uses systems and machines to simulate human intelligence and solve common real-world problems. Machine learning and deep learning are Artificial intelligence technologies that use algorithms to predict outcomes more accurately without relying on human intervention. However, the opaque black box model and cumulative model complexity can be used to achieve. Explainable Artificial Intelligence (XAI) is a term that refers to Artificial Intelligence (AI) that can provide explanations for their decision or predictions to human users. XAI aims to increase the transparency, trustworthiness and accountability of AI system, especially when they are used for high-stakes application such as healthcare, finance or security. This paper offers systematic literature review of XAI approaches with different application and observes 91 recently published articles describing XAI development and applications in healthcare, manufacturing, transportation, and finance. We investigated the Scopus, Web of Science, IEEE Xplore and PubMed databases, to find the pertinent publications published between January 2018 to October 2022. It contains the published research on XAI modelling that were retrieved from scholarly databases using pertinent keyword searches. We think that our systematic review extends to the literature on XAI by working as a roadmap for further research in the field.', doi='10.1016/j.dajour.2023.100230', url='https://openalex.org/W4366085876', citation_count=363, source='openalex')\", \"Paper(title='The ethics of ChatGPT \\u2013 Exploring the ethical issues of an emerging technology', authors=['Bernd Carsten Stahl', 'Damian Eke'], year=2023, abstract=\\\"This article explores ethical issues raised by generative conversational AI systems like ChatGPT. It applies established approaches for analysing ethics of emerging technologies to undertake a systematic review of possible benefits and concerns. The methodology combines ethical issues identified by Anticipatory Technology Ethics, Ethical Impact Assessment, and Ethical Issues of Emerging ICT Applications with AI-specific issues from the literature. These are applied to analyse ChatGPT's capabilities to produce humanlike text and interact seamlessly. The analysis finds ChatGPT could provide high-level societal and ethical benefits. However, it also raises significant ethical concerns across social justice, individual autonomy, cultural identity, and environmental issues. Key high-impact concerns include responsibility, inclusion, social cohesion, autonomy, safety, bias, accountability, and environmental impacts. While the current discourse focuses narrowly on specific issues such as authorship, this analysis systematically uncovers a broader, more balanced range of ethical issues worthy of attention. Findings are consistent with emerging research and industry priorities on ethics of generative AI. Implications include the need for diverse stakeholder engagement, considering benefits and risks holistically when developing applications, and multi-level policy interventions to promote positive outcomes. Overall, the analysis demonstrates that applying established ethics of technology methodologies can produce a rigorous, comprehensive foundation to guide discourse and action around impactful emerging technologies like ChatGPT. The paper advocates sustaining this broad, balanced ethics perspective as use cases unfold to realize benefits while addressing ethical downsides.\\\", doi='10.1016/j.ijinfomgt.2023.102700', url='https://openalex.org/W4386580390', citation_count=397, source='openalex')\", \"Paper(title='How will Language Modelers like ChatGPT Affect Occupations and Industries?', authors=['Edward W. Felten', 'Manav Raj', 'Robert Seamans'], year=2023, abstract=None, doi='10.2139/ssrn.4375268', url='https://openalex.org/W4323345726', citation_count=145, source='openalex')\", \"Paper(title='Counterfactuals and causability in explainable artificial intelligence: Theory, algorithms, and applications', authors=['Yu-Liang Chou', 'Catarina Moreira', 'Peter Bruza', 'Chun Ouyang', 'Joaquim Jorge'], year=2021, abstract=None, doi='10.1016/j.inffus.2021.11.003', url='https://openalex.org/W3214404698', citation_count=249, source='openalex')\", \"Paper(title='Explanations Can Reduce Overreliance on AI Systems During Decision-Making', authors=['Helena Vasconcelos', 'Matthew J\\u00f6rke', 'Madeleine Grunde-McLaughlin', 'Tobias Gerstenberg', 'Michael S. Bernstein', 'Ranjay Krishna'], year=2023, abstract=\\\"Prior work has identified a resilient phenomenon that threatens the performance of human-AI decision-making teams: overreliance, when people agree with an AI, even when it is incorrect. Surprisingly, overreliance does not reduce when the AI produces explanations for its predictions, compared to only providing predictions. Some have argued that overreliance results from cognitive biases or uncalibrated trust, attributing overreliance to an inevitability of human cognition. By contrast, our paper argues that people strategically choose whether or not to engage with an AI explanation, demonstrating empirically that there are scenarios where AI explanations reduce overreliance. To achieve this, we formalize this strategic choice in a cost-benefit framework, where the costs and benefits of engaging with the task are weighed against the costs and benefits of relying on the AI. We manipulate the costs and benefits in a maze task, where participants collaborate with a simulated AI to find the exit of a maze. Through 5 studies (N = 731), we find that costs such as task difficulty (Study 1), explanation difficulty (Study 2, 3), and benefits such as monetary compensation (Study 4) affect overreliance. Finally, Stu",
+      "status": "success",
+      "duration_ms": 0.0,
+      "error": null,
+      "_truncated": true
+    },
+    {
+      "tool_name": "search_google_scholar",
+      "args": {
+        "query": "find literature on AI",
+        "limit": 20
+      },
+      "result": "[\"Paper(title='Collaborating with AI in literature search\\u2014An important frontier', authors=['M Enomoto', 'CH Tseng', 'YC Hsu', 'LTT Thuy'], year=2023, abstract='\\u2026 literature search for this study,[2] we asked Generative Pre-trained Transformer-4, \\u201cPlease find \\u2026 Next, we asked the same question to another AI-generated research assistant, \\u201cElicit.\\u201d[3] \\u2026', doi=None, url='https://journals.lww.com/hepcomm/fulltext/2023/12010/collaborating_with_ai_in_literature_search_an.22.aspx?context=latestarticles', citation_count=4, source='google_scholar')\", \"Paper(title='Artificial intelligence and the conduct of literature reviews', authors=['G Wagner', 'R Lukyanenko'], year=2022, abstract='\\u2026 AI can expedite individual steps of the literature review process. Considering that the use of AI \\u2026 propose a comprehensive research agenda for AI-based literature reviews (AILRs) in our \\u2026', doi=None, url='https://journals.sagepub.com/doi/abs/10.1177/02683962211048201', citation_count=411, source='google_scholar')\", \"Paper(title='What AI researchers read: The role of literature in artificial intelligence research', authors=['S Dillon', 'J Schaffer-Goddard'], year=2023, abstract=\\\"\\u2026 As I say, I think you'll find very broad familiarity with just about everything. Everybody's seen everything that you talk to. So everything from 2001 and Star Wars and Forbidden Planet. \\u2026\\\", doi=None, url='https://journals.sagepub.com/doi/abs/10.1080/03080188.2022.2079214', citation_count=49, source='google_scholar')\", \"Paper(title='Artificial intelligence for literature reviews: opportunities and challenges: F. Bola\\u00f1os et al.', authors=['F Bolanos', 'A Salatino', 'F Osborne', 'E Motta'], year=2024, abstract='\\u2026 use of Artificial Intelligence (AI) in Systematic Literature Reviews (\\u2026 The increasing role of AI in this field shows great potential in \\u2026 creation of literature reviews. Our study focuses on how \\u2026', doi=None, url='https://link.springer.com/article/10.1007/s10462-024-10902-3', citation_count=267, source='google_scholar')\", \"Paper(title='Human-AI collaboration to identify literature for evidence synthesis', authors=['S Spillias', 'P Tuohy', 'M Andreotta'], year=2024, abstract='\\u2026 five strategies for synthesizing AI output to screen articles based on predefined inclusion criteria. We find that low omission rates (<1%) of relevant literature by the AI are achievable, \\u2026', doi=None, url='https://www.cell.com/cell-reports-sustainability/fulltext/S2949-7906(24)00207-6', citation_count=66, source='google_scholar')\", \"Paper(title='AI literature review suite', authors=['DA Tovar'], year=2023, abstract='\\u2026 , meaningful, and detailed syntheses of clustered literature. However, one of the key features \\u2026 the forefront of AI advancements and continues to provide high-quality literature synthesis. \\u2026', doi=None, url='https://arxiv.org/abs/2308.02443', citation_count=7, source='google_scholar')\", \"Paper(title='Artificial intelligence to automate the systematic review of scientific literature', authors=['J de la Torre-L\\u00f3pez', 'A Ram\\u00edrez', 'JR Romero'], year=2023, abstract='\\u2026 Artificial intelligence (AI) has come to alleviate people from tasks they repeatedly do at work \\u2026 of related scientific literature in order to understand the context and find relevant works \\u2026', doi=None, url='https://link.springer.com/article/10.1007/s00607-023-01181-x', citation_count=219, source='google_scholar')\", \"Paper(title='AI in education: A systematic literature review', authors=['F Tahiru'], year=2021, abstract='\\u2026 literature was done using the systematic review method to identify the current research focus and provide an in-depth understanding of AI \\u2026 , we refer to AI as the Soft AI since machines \\u2026', doi=None, url='https://www.igi-global.com/article/ai-in-education/266434', citation_count=525, source='google_scholar')\", \"Paper(title='AI and Literature', authors=['L Barron'], year=2023, abstract='\\u2026 While the technological roots of AI are traced to the 1940s and find the beginnings of practical development in the 1950s, the idea of humans creating artificial life is an ancient one. As \\u2026', doi=None, url='https://www.emerald.com/insight/content/doi/10.1108/978-1-80382-327-020231003/full/html', citation_count=9, source='google_scholar')\", \"Paper(title='AI meets academia: transforming systematic literature reviews', authors=['P Tomczyk', 'P Br\\u00fcggemann', 'D Vrontis'], year=2026, abstract='\\u2026 and present the main topics of the literature on the use of AI and automation in SLR. Due to \\u2026 literature review. To our knowledge, there is currently no study systematizing the literature on \\u2026', doi=None, url='https://www.emerald.com/emjb/article/21/1/345/1249905', citation_count=36, source='google_scholar')\", \"Paper(title='A systematic review of Green AI', authors=['R Verdecchia', 'J Sallou', 'L Cruz'], year=2023, abstract='\\u2026 To address this gap, in this article, we present a systematic review of the Green AI literature. \\u2026 As depicted in Figure 8, we find that most of the publications on the topics of Green AI focus \\u2026', doi=None, url='https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/widm.1507', citation_count=443, source='google_scholar')\", \"Paper(title='Role of AI chatbots in education: systematic literature review', authors=['L Labadze', 'M Grigolia', 'L Machaidze'], year=2023, abstract='\\u2026 We find that AI chatbots may benefit students as well as educators in various ways, however, there are significant concerns that need to be addressed in order to harness its capabilities \\u2026', doi=None, url='https://link.springer.com/article/10.1186/s41239-023-00426-1', citation_count=1374, source='google_scholar')\", \"Paper(title='Challenges and opportunities of AI-assisted learning: A systematic literature review on the impact of ChatGPT usage in higher education', authors=['AR Vargas-Murillo', 'INM De la Asuncion'], year=2023, abstract='\\u2026 It has always been remarkable how AI is able to reproduce human-like behavior and writing \\u2026 is perceived of AI. It is not so difficult nowadays to find literature written entirely by AI, and \\u2026', doi=None, url='https://www.researchgate.net/profile/Fatima-Belkhir/publication/377181453_Vol_22_No_7_July_2023_Part_1/links/6598422a3c472d2e8eb6fbea/Vol-22-No-7-July-2023-Part-1.pdf#page=129', citation_count=212, source='google_scholar')\", \"Paper(title='AI literacy in K-12: a systematic literature review', authors=['L Casal-Otero', 'A Catala', 'C Fern\\u00e1ndez-Morante'], year=2023, abstract='\\u2026 Among the 299 affiliated institutions, we mostly find universities and research centers along with a few collaboration associations. The most active institutions are the Chinese University \\u2026', doi=None, url='https://link.springer.com/article/10.1186/s40594-023-00418-7', citation_count=858, source='google_scholar')\", \"Paper(title=\\\"Exploring AI's role in literature searching: Traditional methods versus AI-based tools in analyzing topical e-commerce themes\\\", authors=['P Tomczyk', 'P Br\\u00fcggemann', 'N Mergner'], year=2024, abstract='\\u2026 landscape of Artificial Intelligence (AI) and its impact on literature reviews, exploring the potential of AI-\\u2026 This indicates that this tool can help to find previous research-overseen literature. \\u2026', doi=None, url='https://link.springer.com/chapter/10.1007/978-3-031-62135-2_15', citation_count=9, source='google_scholar')\", \"Paper(title='The role of artificial intelligence in healthcare: a structured literature review', authors=['S Secinaro', 'D Calandra', 'A Secinaro'], year=2021, abstract='\\u2026 between AI and decision-making is the reason why we find, \\u2026 indicate a marked strand of the literature; therefore, we argue \\u2026 is essential for the development of AI applications. A large part \\u2026', doi=None, url='https://link.springer.com/content/pdf/10.1186/s1",
+      "status": "success",
+      "duration_ms": 0.0,
+      "error": null,
+      "_truncated": true
+    },
+    {
+      "tool_name": "search_scopus_sync",
+      "args": {
+        "query": "find literature on AI",
+        "limit": 25
+      },
+      "result": [
+        "Paper(title='Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting', authors=['Zhou H.'], year=2021, abstract=None, doi='10.1609/aaai.v35i12.17325', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85130054909&origin=inward', citation_count=6100, source='scopus')",
+        "Paper(title='Training data-efficient image transformers & distillation through attention', authors=['Touvron H.'], year=2021, abstract=None, doi=None, url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85160707660&origin=inward', citation_count=6020, source='scopus')",
+        "Paper(title='UniProt: the Universal Protein Knowledgebase in 2023', authors=['Bateman A.'], year=2023, abstract=None, doi='10.1093/nar/gkac1052', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85145981206&origin=inward', citation_count=4727, source='scopus')",
+        "Paper(title='Machine Learning: Algorithms, Real-World Applications and Research Directions', authors=['Sarker I.H.'], year=2021, abstract=None, doi='10.1007/s42979-021-00592-x', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85131835216&origin=inward', citation_count=4430, source='scopus')",
+        "Paper(title='ChatGPT for good? On opportunities and challenges of large language models for education', authors=['Kasneci E.'], year=2023, abstract=None, doi='10.1016/j.lindif.2023.102274', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85150364293&origin=inward', citation_count=3936, source='scopus')",
+        "Paper(title='A Survey on Bias and Fairness in Machine Learning', authors=['Mehrabi N.'], year=2022, abstract=None, doi='10.1145/3457607', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85111411703&origin=inward', citation_count=3718, source='scopus')",
+        "Paper(title='Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy', authors=['Dwivedi Y.K.'], year=2021, abstract=None, doi='10.1016/j.ijinfomgt.2019.08.002', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85071255877&origin=inward', citation_count=3365, source='scopus')",
+        "Paper(title='OpenPose: Realtime Multi-Person 2D Pose Estimation Using Part Affinity Fields', authors=['Cao Z.'], year=2021, abstract=None, doi='10.1109/TPAMI.2019.2929257', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85097571356&origin=inward', citation_count=3315, source='scopus')",
+        "Paper(title='“So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy', authors=['Dwivedi Y.K.'], year=2023, abstract=None, doi='10.1016/j.ijinfomgt.2023.102642', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149886538&origin=inward', citation_count=3274, source='scopus')",
+        "Paper(title='Are Transformers Effective for Time Series Forecasting?', authors=['Zeng A.'], year=2023, abstract=None, doi='10.1609/aaai.v37i9.26317', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85149166758&origin=inward', citation_count=2752, source='scopus')",
+        "Paper(title='The Arithmetic Optimization Algorithm', authors=['Abualigah L.'], year=2021, abstract=None, doi='10.1016/j.cma.2020.113609', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85099194941&origin=inward', citation_count=2663, source='scopus')",
+        "Paper(title='Large language models in medicine', authors=['Thirunavukarasu A.J.'], year=2023, abstract=None, doi='10.1038/s41591-023-02448-8', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85164920639&origin=inward', citation_count=2515, source='scopus')",
+        "Paper(title='Machine learning and deep learning', authors=['Janiesch C.'], year=2021, abstract=None, doi='10.1007/s12525-021-00475-2', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85104085325&origin=inward', citation_count=2400, source='scopus')",
+        "Paper(title='Explainable ai: A review of machine learning interpretability methods', authors=['Linardatos P.'], year=2021, abstract=None, doi='10.3390/e23010018', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85098963955&origin=inward', citation_count=2374, source='scopus')",
+        "Paper(title='A Review of Yolo Algorithm Developments', authors=['Jiang P.'], year=2021, abstract=None, doi='10.1016/j.procs.2022.01.135', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124972594&origin=inward', citation_count=2373, source='scopus')",
+        "Paper(title='Deep Learning: A Comprehensive Overview on Techniques, Taxonomy, Applications and Research Directions', authors=['Sarker I.H.'], year=2021, abstract=None, doi='10.1007/s42979-021-00815-1', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85131796405&origin=inward', citation_count=2283, source='scopus')",
+        "Paper(title='FEDformer: Frequency Enhanced Decomposed Transformer for Long-term Series Forecasting', authors=['Zhou T.'], year=2022, abstract=None, doi=None, url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85154558825&origin=inward', citation_count=2209, source='scopus')",
+        "Paper(title='A comparative analysis of gradient boosting algorithms', authors=['Bentéjac C.'], year=2021, abstract=None, doi='10.1007/s10462-020-09896-5', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85089732203&origin=inward', citation_count=2174, source='scopus')",
+        "Paper(title='A review of uncertainty quantification in deep learning: Techniques, applications and challenges', authors=['Abdar M.'], year=2021, abstract=None, doi='10.1016/j.inffus.2021.05.008', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108374881&origin=inward', citation_count=2153, source='scopus')",
+        "Paper(title='Revolutionizing healthcare: the role of artificial intelligence in clinical practice', authors=['Alowais S.A.'], year=2023, abstract=None, doi='10.1186/s12909-023-04698-z', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85171867175&origin=inward', citation_count=2075, source='scopus')",
+        "Paper(title='ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Review on the Promising Perspectives and Valid Concerns', authors=['Sallam M.'], year=2023, abstract=None, doi='10.3390/healthcare11060887', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85151154236&origin=inward', citation_count=2024, source='scopus')",
+        "Paper(title='Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence', authors=['Crawford K.'], year=2021, abstract=None, doi=None, url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004122221&origin=inward', citation_count=2007, source='scopus')",
+        "Paper(title='ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope', authors=['Ray P.P.'], year=2023, abstract=None, doi='10.1016/j.iotcps.2023.04.003', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85152931741&origin=inward', citation_count=1965, source='scopus')",
+        "Paper(title='Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences', authors=['Rives A.'], year=2021, abstract=None, doi='10.1073/pnas.2016239118', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85104303317&origin=inward', citation_count=1959, source='scopus')",
+        "Paper(title='AI in health and medicine', authors=['Rajpurkar P.'], year=2022, abstract=None, doi='10.1038/s41591-021-01614-0', url='https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85123173008&origin=inward', citation_count=1940, source='scopus')"
+      ],
+      "status": "success",
+      "duration_ms": 0.5,
+      "error": null
+    },
+    {
+      "tool_name": "search_semantic_scholar_sync",
+      "args": {
+        "query": "find literature on AI",
+        "limit": 30
+      },
+      "result": "[\"Paper(title='Cosmos World Foundation Model Platform for Physical AI', authors=['Nvidia Niket Agarwal', 'Arslan Ali', 'Maciej Bala', 'Yogesh Balaji', 'Erik Barker', 'Tiffany Cai', 'Prithvijit Chattopadhyay', 'Yongxin Chen', 'Yin Cui', 'Yifan Ding', 'Daniel Dworakowski', 'JiaoJiao Fan', 'Michele Fenzi', 'Francesco Ferroni', 'Sanja Fidler', 'Dieter Fox', 'Songwei Ge', 'Yunhao Ge', 'Jinwei Gu', 'Siddharth Gururani', 'Ethan He', 'Jiahui Huang', 'J. Huffman', 'Pooya Jannaty', 'Jingyi Jin', 'S. Kim', \\\"Gergely Kl'ar\\\", 'Grace Lam', 'Shiyi Lan', 'L. Leal-Taix\\u00e9', 'Anqi Li', 'Zhaoshuo Li', 'Chen-Hsuan Lin', 'Tsung-Yi Lin', 'Huan Ling', 'Ming-Yu Liu', 'Xian Liu', 'Alice Luo', 'Qianli Ma', 'Hanzi Mao', 'Kaichun Mo', 'A. Mousavian', 'Seungjun Nah', 'Sriharsha Niverty', 'David Page', 'Despoina Paschalidou', 'Zeeshan Patel', 'Lindsey Pavao', 'Morteza Ramezanali', 'F. Reda', 'Xiao-Shuai Ren', 'Vasanth Rao Naik Sabavat', 'Ed Schmerling', 'Stella Shi', 'Bartosz Stefaniak', 'Shitao Tang', 'Lyne P. Tchapmi', 'Przemek Tredak', 'Wei-Cheng Tseng', 'J. Varghese', 'Hao Wang', 'Haoxiang Wang', 'Hengyi Wang', 'Tingwei Wang', 'Fangyin Wei', 'Xinyue Wei', 'Jay Zhangjie Wu', 'Jiashu Xu', 'Wei Yang', 'Lin Yen-Chen', 'Xiaohui Zeng', 'Yuan Zeng', 'Jing Zhang', 'Qinsheng Zhang', 'Yuxuan Zhang', 'Qingqing Zhao', 'Artur Zolkowski'], year=2025, abstract='Physical AI needs to be trained digitally first. It needs a digital twin of itself, the policy model, and a digital twin of the world, the world model. In this paper, we present the Cosmos World Foundation Model Platform to help developers build customized world models for their Physical AI setups. We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications. Our platform covers a video curation pipeline, pre-trained world foundation models, examples of post-training of pre-trained world foundation models, and video tokenizers. To help Physical AI builders solve the most critical problems of our society, we make Cosmos open-source and our models open-weight with permissive licenses available via https://github.com/nvidia-cosmos/cosmos-predict1.', doi='10.48550/arXiv.2501.03575', url='https://www.semanticscholar.org/paper/b95baf93d1cfb406b50aa370ce5ba18788b5891d', citation_count=465, source='semantic_scholar')\", \"Paper(title='Constitutional AI: Harmlessness from AI Feedback', authors=['Yuntao Bai', 'Saurav Kadavath', 'Sandipan Kundu', 'Amanda Askell', 'John Kernion', 'Andy Jones', 'A. Chen', 'Anna Goldie', 'Azalia Mirhoseini', 'C. McKinnon', 'Carol Chen', 'Catherine Olsson', 'Chris Olah', 'Danny Hernandez', 'Dawn Drain', 'Deep Ganguli', 'Dustin Li', 'Eli Tran-Johnson', 'E. Perez', 'Jamie Kerr', 'J. Mueller', 'Jeffrey Ladish', 'J. Landau', 'Kamal Ndousse', 'Kamil\\u0117 Luko\\u0161i\\u016bt\\u0117', 'Liane Lovitt', 'M. Sellitto', 'Nelson Elhage', 'Nicholas Schiefer', \\\"Noem'i Mercado\\\", 'Nova Dassarma', 'R. Lasenby', 'Robin Larson', 'Sam Ringer', 'Scott Johnston', 'Shauna Kravec', 'S. E. Showk', 'Stanislav Fort', 'Tamera Lanham', 'Timothy Telleen-Lawton', 'Tom Conerly', 'T. Henighan', 'Tristan Hume', 'Sam Bowman', 'Zac Hatfield-Dodds', 'Benjamin Mann', 'Dario Amodei', 'Nicholas Joseph', 'Sam McCandlish', 'Tom B. Brown', 'Jared Kaplan'], year=2022, abstract=\\\"As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.\\\", doi='10.48550/arXiv.2212.08073', url='https://www.semanticscholar.org/paper/3936fd3c6187f606c6e4e2e20b196dbc41cc4654', citation_count=2571, source='semantic_scholar')\", \"Paper(title='Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning', authors=['David Baidoo-Anu', 'Leticia Owusu Ansah'], year=2023, abstract='Since its maiden release into the public domain on November 30, 2022, ChatGPT garnered more than one million subscribers within a week. The generative AI tool \\u23bcChatGPT took the world by surprise with it sophisticated capacity to carry out remarkably complex tasks. The extraordinary abilities of ChatGPT to perform complex tasks within the field of education has caused mixed feelings among educators, as this advancement in AI seems to revolutionize existing educational praxis. This is an exploratory study that synthesizes recent extant literature to offer some potential benefits and drawbacks of ChatGPT in promoting teaching and learning. Benefits of ChatGPT include but are not limited to promotion of personalized and interactive learning, generating prompts for formative assessment activities that provide ongoing feedback to inform teaching and learning etc. The paper also highlights some inherent limitations in the ChatGPT such as generating wrong information, biases in data training, which may augment existing biases, privacy issues etc. The study offers recommendations on how ChatGPT could be leveraged to maximize teaching and learning. Policy makers, researchers, educators and technology experts could work together and start conversations on how these evolving generative AI tools could be used safely and constructively to improve education and support students\\u2019 learning.', doi='10.2139/ssrn.4337484', url='https://www.semanticscholar.org/paper/7b6a8c6d44e0f77bf930484e438d77b7465a69fb', citation_count=2153, source='semantic_scholar')\", \"Paper(title='TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods', authors=['Gary S. Collins', 'K. Moons', 'P. Dhiman', 'R. Riley', 'A. L. Beam', 'B. Van Calster', 'Marzyeh Ghassemi', 'Xiaoxuan Liu', 'Johannes B Reitsma', 'M. van Smeden', 'A. Boulesteix', 'J. Camaradou', 'L. Celi', 'S. Denaxas', 'A. Denniston', 'Ben Glocker', 'Robert M Golub', 'Hugh Harvey', 'G. Heinze', 'Michael M. Hoffman', 'A. Kengne', 'Emily Lam', 'Naomi Lee', 'Elizabeth W Loder', 'Lena Maier-Hein', 'B. Mateen', 'Melissa Mccradden', 'Lauren Oakden-Rayner', 'Johan Ordish', 'Richard Parnell', 'S. Rose', 'Karandeep Singh', 'L. Wynants', 'P. Logullo'], year=2024, abstract='The TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) statement was published in 2015 to provide the minimum reporting recommendations for studies developing or evaluating the performance of a prediction model. Methodological advances in the field of prediction have since included the widespread use of artificial intelligence (AI) powered by machine learning methods to develop prediction models. An update to the TRIPOD statement is thus needed. TRIPOD+AI provides harmonised guidance for reporting prediction model studies, irrespective of whether regression modelling or machine learning methods have b",
+      "status": "success",
+      "duration_ms": 0.0,
+      "error": null,
+      "_truncated": true
+    },
+    {
+      "tool_name": "format_papers_as_markdown",
+      "args": {},
+      "result": {
+        "message": "Tool requires parameters that cannot be auto-filled from the user query.",
+        "parameter_guide": [
+          {
+            "name": "papers",
+            "type": "string",
+            "required": "yes",
+            "guide": "List of paper dicts from search results above"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "required": "no",
+            "guide": "Paper/section title"
+          }
+        ],
+        "description": "Format a list of papers (objects or dicts) as markdown.",
+        "category": "literature"
+      },
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool_name": "save_papers_to_json",
+      "args": {},
+      "result": {
+        "message": "Tool requires parameters that cannot be auto-filled from the user query.",
+        "parameter_guide": [
+          {
+            "name": "papers",
+            "type": "string",
+            "required": "yes",
+            "guide": "List of paper dicts from search results above"
+          },
+          {
+            "name": "filepath",
+            "type": "string",
+            "required": "yes",
+            "guide": "File path — ask user or use project outputs/ directory"
+          }
+        ],
+        "description": "Save papers to a JSON file.",
+        "category": "literature"
+      },
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null
+    }
+  ],
+  "tool_errors": [],
+  "memory_context": {
+    "memories": [
+      {
+        "content": "[MasterOrchestrator] Processed: ...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:08:58.544491"
+      },
+      {
+        "content": "[MasterOrchestrator] Processed: xyzzy gibberish 42 random...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:08:58.655500"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on cybersecurity...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:09:04.074745"
+      },
+      {
+        "content": "[BrainstormingFacilitator] Processed: help me brainstorm ideas for a research project...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:10:09.139561"
+      },
+      {
+        "content": "[BrainstormingFacilitator] Processed: help me brainstorm ideas...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:10:09.355954"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on machine learning...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:10:12.954243"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on machine learning...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:10:13.075798"
+      },
+      {
+        "content": "[MasterOrchestrator] Processed: ...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:10:13.175524"
+      },
+      {
+        "content": "[MasterOrchestrator] Processed: xyzzy gibberish 42 random...",
+        "category": "execution",
+        "timestamp": "2026-03-15T08:10:13.262903"
+      }
+    ],
+    "created": "2026-03-15T08:08:58.544491",
+    "updated": "2026-03-15T08:10:13.262903",
+    "context_modules": {
+      "project_state": {
+        "recent_operations": [],
+        "metadata": {},
+        "statistics": {
+          "total_operations": 0,
+          "created": "2026-03-15T08:10:13.317754",
+          "modified": "2026-03-15T08:10:13.317754",
+          "operation_types": {}
+        }
+      },
+      "session": {
+        "session_id": "20260315_081013",
+        "messages": [],
+        "summary": {
+          "session_id": "20260315_081013",
+          "message_count": 0,
+          "user_messages": 0,
+          "assistant_messages": 0,
+          "metadata_keys": []
+        }
+      },
+      "research_diary": {
+        "recent_entries": [],
+        "total_entries": 0
+      }
+    }
+  },
+  "execution_metadata": {
+    "tools_executed": 4,
+    "tools_success": 4,
+    "tools_failed": 0,
+    "tools_skipped": 2,
+    "total_duration_ms": 0.5,
+    "pipeline_route": "Research & Discovery/LiteratureHunter"
+  },
+  "requires_approval": true,
+  "synthesis_instructions": "IMPORTANT: This agent requires user approval before proceeding. Present the tool results below to the user and ask: 'Do you want to proceed with these results?' Do NOT synthesize a final response until the user approves.",
+  "quality_assessment": {
+    "quality_score": 1.0,
+    "issues": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "lessons": [
+    {
+      "id": "f5d0a5ca",
+      "timestamp": "2026-03-15T08:21:14.305787",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "Tools returned empty results for LiteratureHunter: search_openalex_sync, search_scopus_sync",
+      "resolution": "When LiteratureHunter gets empty results from search_openalex_sync, search_scopus_sync, try: (1) simplify the search query, (2) use broader keywords, (3) check if the tool requires specific parameters.",
+      "keywords": [
+        "literaturehunter",
+        "empty_results",
+        "search_openalex_sync",
+        "search_scopus_sync"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "81c35bbd",
+      "timestamp": "2026-03-15T08:25:52.540416",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "Tools returned empty results for LiteratureHunter: search_openalex_sync, search_scopus_sync",
+      "resolution": "When LiteratureHunter gets empty results from search_openalex_sync, search_scopus_sync, try: (1) simplify the search query, (2) use broader keywords, (3) check if the tool requires specific parameters.",
+      "keywords": [
+        "literaturehunter",
+        "empty_results",
+        "search_openalex_sync",
+        "search_scopus_sync"
+      ],
+      "applied_count": 0
+    }
+  ],
+  "created": "2026-03-15T08:21:14.305787",
+  "updated": "2026-03-15T08:25:52.542807"
+}
