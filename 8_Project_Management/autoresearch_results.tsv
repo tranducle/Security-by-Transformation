@@ -4,3 +4,4 @@ a9837fd	0.874872	0.700	0.983	keep	install requests dep + add evaluate_system.py
 86b1768	0.952308	0.900	0.974	keep	priority keywords for t-test/brainstorm/survey/abstract
 68efa84	0.992308	1.000	0.974	keep	align eval expectations for SOP routing
 c63365d	0.997436	1.000	0.991	keep	fix test expectations for anova/review routing
+2c555a5	1.000000	1.000	1.000	keep	skip test_graph_compiles when langgraph missing

@@ -1725,6 +1725,15 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "questionnaire": ("Methodology & Analysis", "SurveyDesignerAnalyst"),
         "write paper abstract": ("Writing & Synthesis", "AbstractTitleGenerator"),
         "write abstract": ("Writing & Synthesis", "AbstractTitleGenerator"),
+        # Exp#7: Fix routing for harder edge cases
+        "convert docx": ("Research & Discovery", "FileToMarkdownConverter"),
+        "convert my docx": ("Research & Discovery", "FileToMarkdownConverter"),
+        "docx file": ("Research & Discovery", "FileToMarkdownConverter"),
+        "harsh": ("Review & Quality", "HarshReviewer"),
+        "visualize results": ("Visualization", "ResultVisualizer"),
+        "visualize my": ("Visualization", "ResultVisualizer"),
+        "research gap": ("Research & Discovery", "GapScout"),
+        "find gap": ("Research & Discovery", "GapScout"),
     }
 
     # Check priority keywords

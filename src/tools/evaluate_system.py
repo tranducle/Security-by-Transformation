@@ -41,6 +41,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 # Expected routing results — ground truth for scoring
 ROUTING_TESTS = [
+    # ---- Original 20 tests ----
     ("create tikz diagram", "TikZPlotter"),
     ("find literature on cybersecurity", "LiteratureHunter"),
     ("write methodology section", "MethodologyArchitect"),
@@ -54,13 +55,24 @@ ROUTING_TESTS = [
     ("read pdf document for me", "FileToMarkdownConverter"),
     ("find papers on machine learning", "LiteratureHunter"),
     ("write paper abstract", "AbstractTitleGenerator"),
-    ("design an experiment", "SOP_QUANT_EXPERIMENT"),  # SOP is correct for complex tasks
+    ("design an experiment", "SOP_QUANT_EXPERIMENT"),
     ("brainstorm research ideas", "BrainstormingFacilitator"),
     ("analyze data with t-test", "StatisticalAnalyst"),
     ("causal inference analysis", "CausalAnalyst"),
     ("survey design questionnaire", "SurveyDesignerAnalyst"),
-    ("security architecture design", "SOP_DEFENSE_ARCH"),  # SOP is correct for multi-step security
+    ("security architecture design", "SOP_DEFENSE_ARCH"),
     ("deployment friction estimation", "DeploymentFrictionEstimator"),
+    # ---- Exp#6: 10 harder edge cases ----
+    ("run p-value significance test", "StatisticalAnalyst"),
+    ("convert my docx file to text", "FileToMarkdownConverter"),
+    ("write a grant proposal for NSF", "SOP_GRANT_APPLICATION"),  # SOP correct for full grants
+    ("preprocess my data for training", "DataPreprocessingEngineer"),
+    ("create a pytorch neural network", "SOP_CODE_IMPLEMENTATION"),  # SOP correct for code impl
+    ("check my paper for hidden assumptions", "SOP_PAPER_HARDENING"),  # SOP correct for paper audit
+    ("simulate harsh reviewer feedback", "HarshReviewer"),
+    ("find research gap in IoT security", "GapScout"),
+    ("visualize my experiment results", "ResultVisualizer"),
+    ("check novelty of my contribution", "SOP_NOVELTY_DEFENSE"),  # SOP correct for novelty check
 ]
 
 
