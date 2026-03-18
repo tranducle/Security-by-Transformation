@@ -1761,6 +1761,12 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "extract from pdf": ("Research & Discovery", "FileToMarkdownConverter"),
         "likert": ("Methodology & Analysis", "SurveyDesignerAnalyst"),
         "survey instrument": ("Methodology & Analysis", "SurveyDesignerAnalyst"),
+        # Exp#22-23: Fix SOP/agent conflicts
+        "falsifiab": ("Review & Quality", "ScientificFalsifiabilityEngine"),
+        "popper": ("Review & Quality", "ScientificFalsifiabilityEngine"),
+        "optimization model": ("Methodology & Analysis", "AppliedMathModeler"),
+        "harden paper": ("Writing & Synthesis", "SOP_PAPER_HARDENING"),
+        "model selection": ("Coding & Engineering", "SOP_MODEL_SELECTION"),
     }
 
     # Check priority keywords

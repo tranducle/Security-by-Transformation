@@ -106,6 +106,28 @@ ROUTING_TESTS = [
     ("find openalex open access papers", "OpenAlexSearch"),
     ("generate matplotlib figure for paper", "SOP_FIGURE_GENERATION"),  # SOP correct for full figure
     ("build a research framework architecture", "SOP_FRAMEWORK_DEV"),  # SOP correct for framework
+    # ---- Exp#18-19: SOP pipeline trigger coverage ----
+    ("harden this paper before submission", "MasterOrchestrator"),  # MO correctly identifies and delegates
+    ("run systematic literature review with prisma", "SLRProtocolDroid"),
+    ("perform transfer learning from NLP to cyber", "CrossDomainTransferHybridizationAgent"),  # direct agent correct
+    ("select the best model for classification", "MasterOrchestrator"),  # MO correctly routes
+    ("audit this network protocol for security RFC compliance", "SOP_PROTOCOL_SECURITY_AUDIT"),
+    ("kickoff a new research project", "SOP_PROJECT_KICKOFF"),
+    ("run a systems thinking analysis on feedback loops", "SystemDynamicsMapper"),  # direct agent correct
+    ("do an ideation brainstorming session", "BrainstormingFacilitator"),  # priority keyword takes precedence
+    ("translate my paper to a grant proposal", "GrantProposalStrategist"),  # direct agent correct
+    ("track my project progress against milestones", "ProgressTracker"),  # direct agent correct
+    # ---- Exp#20-21: Long-query & domain-boundary tests ----
+    ("I have a paper on machine learning for cybersecurity that needs peer review, can you simulate a harsh reviewer?", "HarshReviewer"),
+    ("help me preprocess and clean my dataset, handle missing values and normalize features", "SOP_DATA_PREPROCESSING"),  # SOP correct for complex preprocessing
+    ("I need to find the most relevant papers on transformer architectures in NLP using semantic scholar", "SemanticSearch"),
+    ("create a comprehensive threat model using STRIDE and DREAD for my IoT application", "ThreatModeler"),
+    ("generate a mermaid sequence diagram showing the authentication flow", "HybridVisualizer"),
+    ("solve this system of nonlinear equations symbolically using sympy", "MathSymbolicSolver"),
+    ("run a qualitative thematic analysis on interview transcripts", "QualitativeCoder"),
+    ("build an applied mathematical optimization model for resource allocation", "SOP_MATH_FORMULATION"),  # SOP correct for math modeling
+    ("analyze my data using exploratory data analysis and compute key metrics", "DataMetricsAnalyst"),
+    ("check if my research claims are falsifiable per Popper criteria", "ScientificFalsifiabilityEngine"),
 ]
 
 
