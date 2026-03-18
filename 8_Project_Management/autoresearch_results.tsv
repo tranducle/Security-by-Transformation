@@ -8,3 +8,4 @@ c63365d	0.997436	1.000	0.991	keep	fix test expectations for anova/review routing
 c3be4f7	1.000000	1.000	1.000	keep	expand eval to 30 tests + fix 4 bugs + 8 new priority keywords
 b564189	1.000000	1.000	1.000	keep	narrow OmniThinker keywords
 37da2eb	1.000000	1.000	1.000	keep	expand to 40 tests + fix debug/daily/proof + 7 keywords
+1e43d6e	1.000000	1.000	1.000	keep	add 15 priority keyword unit tests + fix proof test

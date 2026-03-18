@@ -1742,6 +1742,18 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "proof": ("Methodology & Analysis", "MathProofAuditor"),
         "theorem": ("Methodology & Analysis", "MathProofAuditor"),
         "verify math": ("Methodology & Analysis", "MathProofAuditor"),
+        # Exp#14: Fix routing for rare agents
+        "instrumental variables": ("Methodology & Analysis", "EconometricsModeler"),
+        "regression analysis": ("Methodology & Analysis", "EconometricsModeler"),
+        "refactor": ("Coding & Engineering", "CoderReproAgent"),
+        "clean my code": ("Coding & Engineering", "CoderReproAgent"),
+        "ascii diagram": ("Visualization", "HybridVisualizer"),
+        "text diagram": ("Visualization", "HybridVisualizer"),
+        "scope my research": ("Innovation & Ideation", "ResearchScoper"),
+        "scope boundary": ("Innovation & Ideation", "ResearchScoper"),
+        "attacker-defender": ("Security & Risk", "GameTheoryStrategist"),
+        "single document": ("Writing & Synthesis", "DocumentSynthesizer"),
+        "single-doc": ("Writing & Synthesis", "DocumentSynthesizer"),
     }
 
     # Check priority keywords

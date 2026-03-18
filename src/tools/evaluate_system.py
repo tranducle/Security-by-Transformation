@@ -84,6 +84,17 @@ ROUTING_TESTS = [
     ("daily research summary", "DailySummarizer"),
     ("mathematical proof verification", "MathProofAuditor"),
     ("generate tikz plot for results", "TikZPlotter"),
+    # ---- Exp#13: 10 rare agent & tricky edge cases ----
+    ("run regression analysis with instrumental variables", "EconometricsModeler"),
+    ("write specific aims for NIH grant", "SOP_GRANT_APPLICATION"),  # SOP correct for full grant
+    ("check GDPR compliance of my dataset", "DataPrivacyOfficer"),
+    ("create a case study document", "SOP_CASE_STUDY"),  # SOP correct for full case study
+    ("model attacker-defender game dynamics", "GameTheoryStrategist"),
+    ("find semantic scholar citations", "SemanticSearch"),
+    ("refactor and clean my python code", "CoderReproAgent"),
+    ("text to summarize from a single document", "DocumentSynthesizer"),
+    ("scope my research project boundaries", "ResearchScoper"),
+    ("create ascii diagram of system architecture", "HybridVisualizer"),
 ]
 
 
