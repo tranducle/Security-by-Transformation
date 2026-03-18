@@ -172,6 +172,34 @@ ROUTING_TESTS = [
     ("seed a research program from my paper's findings", "ResearchProgramSeeder"),
     ("examine the evidence chain and contribution dependency", "ContributionDependencyGrapher"),
     ("what is the novelty delta of my contribution compared to prior work?", "NoveltyDeltaCartographer"),
+    # ---- Exp#46-50: Methodology deep-dive agents ----
+    ("identify the best causal identification strategy for my quasi-experiment", "CausalIdentificationStrategist"),
+    ("audit the construct validity of my metrics", "MetricSemanticsAuditor"),
+    ("detect gaps between my concepts and how I operationalize them", "OperationalizationGapDetector"),
+    ("check if my ablation study covers all component combinations", "AblationCoverageOracle"),
+    ("classify the error patterns in my model predictions", "ErrorTaxonomyMiner"),
+    ("examine the provenance and quality of my training dataset", "DatasetProvenanceExaminer"),
+    ("find the minimal decisive experiment to resolve my hypothesis", "MinimalDecisiveExperimentDesigner"),
+    ("prosecute the statistical rigor of my analysis", "StatisticalSanityProsecutor"),
+    ("hunt for methodological confounders in my research design", "MethodologicalConfounderHunter"),
+    ("reframe my argument using counterfactual reasoning", "CounterfactualReframer"),
+    # ---- Exp#51-55: Review & quality niche agents ----
+    ("simulate the cognitive load a reader experiences with my paper", "ReaderCognitiveLoadSimulator"),
+    ("extract the rhetorical skeleton of my paper argument", "RhetoricalSkeletonExtractor"),
+    ("map the epistemic boundaries of my knowledge claims", "EpistemicBoundaryMapper"),
+    ("gate-check all causal language and causal claims in my paper", "CausalClaimGatekeeper"),
+    ("simulate whether my paper would be desk-rejected at a top venue", "SubmissionPersonaSimulator"),
+    ("help me select the right journal or venue for my paper", "JournalSelector"),
+    ("equalize the scholarly tone and check for overclaiming or under-hedging", "ScholarlyToneEqualizer"),
+    ("assess the scholarly risk portfolio of my research claims", "ScholarlyRiskPortfolioManager"),
+    ("estimate the long-term scientific legacy and citation impact of my work", "ScientificLegacyEstimator"),
+    ("architect a grant program from my published paper findings", "PaperToProgramGrantArchitect"),
+    # ---- Exp#56-58: Engineering & meta agents ----
+    ("plan a portfolio of grants from multiple related papers", "GrantPortfolioPlanner"),
+    ("set up an autonomous experiment runner for overnight execution", "AutoExperimentRunner"),
+    ("validate my research framework through structured testing", "FrameworkValidationArchitect"),
+    ("which model has the right capabilities for my NLP task?", "ModelCapabilityRouter"),
+    ("break the generalizability of my claims with boundary conditions", "GeneralizationBreaker"),
 ]
 
 
