@@ -1716,6 +1716,15 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "systematic review": ("Research & Discovery", "SLRProtocolDroid"),
         "prisma": ("Research & Discovery", "SLRProtocolDroid"),
         "bibtex": ("Writing & Synthesis", "BibTeXOptimizer"),
+        # Exp#2: Priority keywords to fix semantic SOP override
+        "t-test": ("Methodology & Analysis", "StatisticalAnalyst"),
+        "anova": ("Methodology & Analysis", "StatisticalAnalyst"),
+        "p-value": ("Methodology & Analysis", "StatisticalAnalyst"),
+        "brainstorm": ("Innovation & Ideation", "BrainstormingFacilitator"),
+        "survey design": ("Methodology & Analysis", "SurveyDesignerAnalyst"),
+        "questionnaire": ("Methodology & Analysis", "SurveyDesignerAnalyst"),
+        "write paper abstract": ("Writing & Synthesis", "AbstractTitleGenerator"),
+        "write abstract": ("Writing & Synthesis", "AbstractTitleGenerator"),
     }
 
     # Check priority keywords
