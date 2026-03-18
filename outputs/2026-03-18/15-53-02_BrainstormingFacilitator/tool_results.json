@@ -1,0 +1,73 @@
+{
+  "tool_results": [
+    {
+      "tool_name": "format_papers_as_markdown",
+      "args": {},
+      "result": {
+        "message": "Tool requires parameters that cannot be auto-filled from the user query.",
+        "parameter_guide": [
+          {
+            "name": "papers",
+            "type": "string",
+            "required": "yes",
+            "guide": "List of paper dicts from search results above"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "required": "no",
+            "guide": "Paper/section title"
+          }
+        ],
+        "description": "Format a list of papers (objects or dicts) as markdown.",
+        "category": "literature"
+      },
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null
+    }
+  ],
+  "tool_errors": [
+    {
+      "tool_name": "search_openalex_sync",
+      "args": {
+        "query": "help me brainstorm research ideas",
+        "limit": 30
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.3,
+      "error": "ImportError: aiohttp is required. Install with: pip install aiohttp"
+    },
+    {
+      "tool_name": "search_google_scholar",
+      "args": {
+        "query": "help me brainstorm research ideas",
+        "limit": 20
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.12,
+      "error": "ImportError: serpapi is required. Install with: pip install google-search-results"
+    },
+    {
+      "tool_name": "search_semantic_scholar_sync",
+      "args": {
+        "query": "help me brainstorm research ideas",
+        "limit": 30
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.28,
+      "error": "ImportError: aiohttp is required. Install with: pip install aiohttp"
+    }
+  ],
+  "execution_metadata": {
+    "tools_executed": 3,
+    "tools_success": 0,
+    "tools_failed": 3,
+    "tools_skipped": 1,
+    "total_duration_ms": 0.7,
+    "pipeline_route": "Innovation & Ideation/BrainstormingFacilitator"
+  }
+}

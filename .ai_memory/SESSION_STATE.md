@@ -5182,3 +5182,1155 @@
 - **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
 - **Success:** 0/2
 - **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:50:33.247430
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:50:33.282469
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:50:33.305225
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:50:33.326888
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:50:33.350375
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.380785
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.407537
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.432107
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.451945
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.471792
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:50:33.528353
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:50:33.548809
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.569435
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.594132
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:50:33.603402
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:50:33.613273
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.636557
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:50:33.657071
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:37.193180
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:37.221283
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:37.242995
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:37.263257
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:37.286419
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.309843
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.335600
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.356755
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.379572
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.399641
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:37.454089
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:37.474626
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.495679
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.518275
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:52:37.527509
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:52:37.539107
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.560562
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:37.580834
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:43.370053
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:43.399971
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:43.424925
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:43.445294
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:43.467600
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.493027
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.519157
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.542829
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.564400
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.586568
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:43.642403
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:52:43.663265
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.684953
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.706895
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:52:43.716381
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:52:43.726773
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.750899
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:52:43.774245
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:02.970557
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:02.994954
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:03.017239
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:03.039126
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:03.061792
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.086067
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.112745
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.134164
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.154856
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.176441
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:03.239204
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:03.263556
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.284479
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.307313
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:53:03.319311
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:53:03.329477
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.350643
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:03.372013
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:09.579464
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:09.606969
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:09.634521
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:09.661375
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:09.688253
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:09.715602
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:09.746822
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:09.771699
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:09.796894
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:09.822477
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:09.907033
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:53:09.934337
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:09.958985
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:09.983558
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:53:09.996038
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:53:10.005832
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:10.029826
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:53:10.054066
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:08.740523
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:08.770389
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:08.792497
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:08.814385
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:08.837960
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:08.862865
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:08.885280
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:08.910108
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:08.931179
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:08.951536
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:09.012316
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:09.034541
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:09.055988
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:09.078259
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:58:09.087611
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:58:09.099501
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:09.123035
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:09.143305
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:14.951105
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:14.977909
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:15.001902
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:15.023691
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:15.044821
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.069289
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.090501
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.112055
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.133675
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.154096
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:15.213626
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:15.236382
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.257276
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.277638
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:58:15.286937
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:58:15.299804
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.323950
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:15.347023
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:33.138909
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:33.177636
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:33.205326
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:33.232639
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:33.257555
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm research ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.286297
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.312895
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.339163
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.365569
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.391143
+- **Domain:** Research & Discovery
+- **Request:** find literature on deep reinforcement learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:33.458410
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas for a research project
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: BrainstormingFacilitator
+- **Time:** 2026-03-18T15:58:33.482018
+- **Domain:** Innovation & Ideation
+- **Request:** help me brainstorm ideas
+- **Tools:** ['format_papers_as_markdown']
+- **Success:** 0/1
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.506636
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.532379
+- **Domain:** Research & Discovery
+- **Request:** find literature on machine learning
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:58:33.545247
+- **Domain:** Strategy & Operations
+- **Request:** 
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: MasterOrchestrator
+- **Time:** 2026-03-18T15:58:33.555071
+- **Domain:** Strategy & Operations
+- **Request:** xyzzy gibberish 42 random
+- **Tools:** []
+- **Success:** 0/0
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.578183
+- **Domain:** Research & Discovery
+- **Request:** find literature on AI
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS
+
+## Pipeline Execution: LiteratureHunter
+- **Time:** 2026-03-18T15:58:33.603093
+- **Domain:** Research & Discovery
+- **Request:** find literature on cybersecurity
+- **Tools:** ['format_papers_as_markdown', 'save_papers_to_json']
+- **Success:** 0/2
+- **Quality:** PASS

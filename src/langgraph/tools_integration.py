@@ -302,7 +302,7 @@ if TOOLS_AVAILABLE:
     import asyncio as _asyncio
 
     for _name, _func in _TOOL_REGISTRY.items():
-        if _func is not None and _asyncio.iscoroutinefunction(_func):
+        if _func is not None and inspect.iscoroutinefunction(_func):
             logger.warning(
                 "ASYNC TOOL IN REGISTRY: '%s' is a coroutine function. "
                 "The tool executor expects sync callables. Wrap it with a "

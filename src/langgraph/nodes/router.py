@@ -497,7 +497,7 @@ ROUTING_RULES: Dict[str, Dict[str, List[str]]] = {
         "FutureScenarioForecaster": ["business scenario", "future planning", "what if"],
         # Cyber Paper Hardening: Layer 4 - SME Realism (Business)
         "SMEResourceRealityChecker": ["sme resource check", "sme feasibility", "sme deployment", "small business security feasibility", "sme resource reality", "sme resource feasibility"],
-        "SMEIncentiveAdoptionFrictionMapper": ["sme adoption", "adoption friction", "sme incentive", "adoption barrier", "sme stakeholder"],
+        "SMEIncentiveAdoptionFrictionMapper": ["sme adoption", "adoption friction", "sme incentive", "sme stakeholder"],
     },
     # Domain 10: Innovation & Ideation (Lead: InnovationStrategist)
     "Innovation & Ideation": {

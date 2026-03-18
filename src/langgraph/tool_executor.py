@@ -7,6 +7,7 @@ Never crashes — always returns ToolResult with status.
 
 import asyncio
 import hashlib
+import inspect
 import json
 import logging
 import multiprocessing
@@ -84,7 +85,7 @@ def execute_tool_sync(
     for attempt in range(max_retries + 1):
         try:
             # Execute with actual timeout enforcement
-            if asyncio.iscoroutinefunction(func):
+            if inspect.iscoroutinefunction(func):
                 logger.warning(
                     "Async function '%s' in sync executor — wrapping with asyncio.run()",
                     tool_name,

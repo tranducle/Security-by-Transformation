@@ -1,0 +1,211 @@
+{
+  "agent_context": {
+    "name": "LiteratureHunter",
+    "domain": "Research & Discovery",
+    "role": "LITERATURE HUNTER (Lead Research Coordinator)",
+    "goal": "You are the **Lead Research Coordinator** who orchestrates comprehensive literature searches. You don't just search—you coordinate a multi-source investigation to ensure complete coverage. You MUST use the literature_tools.py functions for all academic searches."
+  },
+  "user_request": "find literature on cybersecurity",
+  "tool_results": [
+    {
+      "tool_name": "format_papers_as_markdown",
+      "args": {},
+      "result": {
+        "message": "Tool requires parameters that cannot be auto-filled from the user query.",
+        "parameter_guide": [
+          {
+            "name": "papers",
+            "type": "string",
+            "required": "yes",
+            "guide": "List of paper dicts from search results above"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "required": "no",
+            "guide": "Paper/section title"
+          }
+        ],
+        "description": "Format a list of papers (objects or dicts) as markdown.",
+        "category": "literature"
+      },
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool_name": "save_papers_to_json",
+      "args": {},
+      "result": {
+        "message": "Tool requires parameters that cannot be auto-filled from the user query.",
+        "parameter_guide": [
+          {
+            "name": "papers",
+            "type": "string",
+            "required": "yes",
+            "guide": "List of paper dicts from search results above"
+          },
+          {
+            "name": "filepath",
+            "type": "string",
+            "required": "yes",
+            "guide": "File path — ask user or use project outputs/ directory"
+          }
+        ],
+        "description": "Save papers to a JSON file.",
+        "category": "literature"
+      },
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null
+    }
+  ],
+  "tool_errors": [
+    {
+      "tool_name": "search_openalex_sync",
+      "args": {
+        "query": "find literature on cybersecurity",
+        "limit": 30
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.39,
+      "error": "ImportError: aiohttp is required. Install with: pip install aiohttp"
+    },
+    {
+      "tool_name": "search_google_scholar",
+      "args": {
+        "query": "find literature on cybersecurity",
+        "limit": 20
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.08,
+      "error": "ImportError: serpapi is required. Install with: pip install google-search-results"
+    },
+    {
+      "tool_name": "search_scopus_sync",
+      "args": {
+        "query": "find literature on cybersecurity",
+        "limit": 25
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.4,
+      "error": "ImportError: aiohttp is required"
+    },
+    {
+      "tool_name": "search_semantic_scholar_sync",
+      "args": {
+        "query": "find literature on cybersecurity",
+        "limit": 30
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.37,
+      "error": "ImportError: aiohttp is required. Install with: pip install aiohttp"
+    }
+  ],
+  "memory_context": {
+    "memories": [
+      {
+        "content": "[BrainstormingFacilitator] Processed: help me brainstorm research ideas...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.122687"
+      },
+      {
+        "content": "[BrainstormingFacilitator] Processed: help me brainstorm research ideas...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.149391"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on deep reinforcement learning...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.177676"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on deep reinforcement learning...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.203684"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on deep reinforcement learning...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.229701"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on deep reinforcement learning...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.255635"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on deep reinforcement learning...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.280008"
+      },
+      {
+        "content": "[BrainstormingFacilitator] Processed: help me brainstorm ideas for a research project...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.349710"
+      },
+      {
+        "content": "[BrainstormingFacilitator] Processed: help me brainstorm ideas...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.374072"
+      },
+      {
+        "content": "[LiteratureHunter] Processed: find literature on machine learning...",
+        "category": "execution",
+        "timestamp": "2026-03-18T15:29:58.398634"
+      },
+      "... [490 more items]"
+    ],
+    "created": "2026-03-15T08:08:58.544491",
+    "updated": "2026-03-18T15:58:33.568414",
+    "context_modules": {
+      "project_state": {
+        "recent_operations": [],
+        "metadata": {},
+        "statistics": {
+          "total_operations": 0,
+          "created": "2026-03-18T15:58:33.558791",
+          "modified": "2026-03-18T15:58:33.558793",
+          "operation_types": {}
+        }
+      },
+      "session": {
+        "session_id": "20260318_155833",
+        "messages": [],
+        "summary": {
+          "session_id": "20260318_155833",
+          "message_count": 0,
+          "user_messages": 0,
+          "assistant_messages": 0,
+          "metadata_keys": []
+        }
+      },
+      "research_diary": {
+        "recent_entries": [],
+        "total_entries": 0
+      },
+      "lessons_learned": "[LESSONS] Self-Improvement Database Summary\n  Total lessons: 200\n  User-triggered: 0\n  Auto-detected: 200\n  Agents involved: 2\n  Last updated: 2026-03-18T15:58:33\n  Top agents:\n    - LiteratureHunter: 114 lessons\n    - BrainstormingFacilitator: 86 lessons"
+    }
+  },
+  "execution_metadata": {
+    "tools_executed": 4,
+    "tools_success": 0,
+    "tools_failed": 4,
+    "tools_skipped": 2,
+    "total_duration_ms": 1.24,
+    "pipeline_route": "Research & Discovery/LiteratureHunter"
+  },
+  "requires_approval": true,
+  "synthesis_instructions": "IMPORTANT: This agent requires user approval before proceeding. Present the tool results below to the user and ask: 'Do you want to proceed with these results?' Do NOT synthesize a final response until the user approves.\n\nQUALITY WARNING: The following issues were detected during execution:\n- All 4 tools failed for agent LiteratureHunter\n- High tool failure ratio for LiteratureHunter: 4/4 failed\nConsider addressing these issues or suggesting the user re-run with different parameters.",
+  "quality_assessment": {
+    "quality_score": 0.0,
+    "issues": [
+      "All 4 tools failed for agent LiteratureHunter",
+      "High tool failure ratio for LiteratureHunter: 4/4 failed"
+    ]
+  }
+}
