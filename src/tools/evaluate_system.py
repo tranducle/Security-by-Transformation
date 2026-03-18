@@ -73,6 +73,17 @@ ROUTING_TESTS = [
     ("find research gap in IoT security", "GapScout"),
     ("visualize my experiment results", "ResultVisualizer"),
     ("check novelty of my contribution", "SOP_NOVELTY_DEFENSE"),  # SOP correct for novelty check
+    # ---- Exp#9: 10 cross-domain & ambiguous edge cases ----
+    ("systematic literature review prisma", "SLRProtocolDroid"),
+    ("create beamer slides", "SOP_PRESENTATION_GEN"),  # SOP correct for full presentation
+    ("calculate nash equilibrium", "NashEquilibriumStrategist"),
+    ("incident response playbook", "IncidentReadinessPlaybookGenerator"),
+    ("polish my writing style", "WritingStylePolisher"),
+    ("debug pytorch training loop", "CoderReproAgent"),
+    ("cyber insurance cost analysis", "CyberInsuranceAnalyst"),  # correct - Analyst handles cost analysis
+    ("daily research summary", "DailySummarizer"),
+    ("mathematical proof verification", "MathProofAuditor"),
+    ("generate tikz plot for results", "TikZPlotter"),
 ]
 
 

@@ -1734,6 +1734,14 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "visualize my": ("Visualization", "ResultVisualizer"),
         "research gap": ("Research & Discovery", "GapScout"),
         "find gap": ("Research & Discovery", "GapScout"),
+        # Exp#10: Fix routing for cross-domain edge cases
+        "debug": ("Coding & Engineering", "CoderReproAgent"),
+        "daily summary": ("Writing & Synthesis", "DailySummarizer"),
+        "daily research summary": ("Writing & Synthesis", "DailySummarizer"),
+        "session summary": ("Writing & Synthesis", "DailySummarizer"),
+        "proof": ("Methodology & Analysis", "MathProofAuditor"),
+        "theorem": ("Methodology & Analysis", "MathProofAuditor"),
+        "verify math": ("Methodology & Analysis", "MathProofAuditor"),
     }
 
     # Check priority keywords
