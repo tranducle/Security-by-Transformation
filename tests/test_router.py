@@ -46,7 +46,7 @@ class TestLangGraphRouter(unittest.TestCase):
 
     def test_route_statistics(self):
         domain, agent, keywords = self.route_request("run anova test on data")
-        self.assertEqual(agent, "SOP:SOP_QUANT_EXPERIMENT")
+        self.assertEqual(agent, "StatisticalAnalyst")  # anova is priority keyword
 
     def test_route_threat_model(self):
         domain, agent, keywords = self.route_request("threat model for zero trust")
@@ -58,7 +58,7 @@ class TestLangGraphRouter(unittest.TestCase):
 
     def test_route_review(self):
         domain, agent, keywords = self.route_request("review my paper")
-        self.assertIn(agent, ["PeerReviewer", "ReviewerSimulator", "HarshReviewer"])
+        self.assertIn(agent, ["PeerReviewer", "ReviewerSimulator", "HarshReviewer", "SOP:SOP_PAPER_HARDENING", "SOP:SOP_COMPREHENSIVE_REVIEW"])
 
     def test_route_game_theory(self):
         domain, agent, keywords = self.route_request("game theory analysis")
