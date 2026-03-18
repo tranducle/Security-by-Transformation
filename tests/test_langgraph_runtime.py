@@ -64,6 +64,14 @@ class TestInitialState(unittest.TestCase):
         self.assertEqual(len(state["tool_results"]), 0)
 
 
+try:
+    import langgraph as _lg
+    _HAS_LANGGRAPH = True
+except ImportError:
+    _HAS_LANGGRAPH = False
+
+
+@unittest.skipIf(not _HAS_LANGGRAPH, "langgraph not installed")
 class TestGraphCompilation(unittest.TestCase):
     def test_graph_compiles(self):
         from src.langgraph.graph import create_research_graph, invalidate_graph_cache
