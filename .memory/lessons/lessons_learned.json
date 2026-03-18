@@ -1,454 +1,6 @@
 {
   "lessons": [
     {
-      "id": "f0d641b4",
-      "timestamp": "2026-03-18T15:13:44.956206",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "a19d5811",
-      "timestamp": "2026-03-18T15:13:44.961033",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "1965da8f",
-      "timestamp": "2026-03-18T15:13:44.975602",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "c9e588ee",
-      "timestamp": "2026-03-18T15:13:44.979773",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "9cd2fb9d",
-      "timestamp": "2026-03-18T15:13:45.015041",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "095c43d4",
-      "timestamp": "2026-03-18T15:13:45.018916",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "8d3a470a",
-      "timestamp": "2026-03-18T15:13:45.033527",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "d70d2576",
-      "timestamp": "2026-03-18T15:13:45.037239",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "d4e1b20a",
-      "timestamp": "2026-03-18T15:16:13.405328",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
-      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
-      "keywords": [
-        "brainstormingfacilitator",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "ec33ffa0",
-      "timestamp": "2026-03-18T15:16:13.419435",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
-      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "brainstormingfacilitator",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "bb439028",
-      "timestamp": "2026-03-18T15:16:13.444952",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
-      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
-      "keywords": [
-        "brainstormingfacilitator",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "57a44921",
-      "timestamp": "2026-03-18T15:16:13.451848",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
-      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "brainstormingfacilitator",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "ade30ab0",
-      "timestamp": "2026-03-18T15:16:13.470623",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
-      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
-      "keywords": [
-        "brainstormingfacilitator",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "69f0aacb",
-      "timestamp": "2026-03-18T15:16:13.475175",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
-      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "brainstormingfacilitator",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "d1f5012c",
-      "timestamp": "2026-03-18T15:16:13.495046",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
-      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
-      "keywords": [
-        "brainstormingfacilitator",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "83eacd1e",
-      "timestamp": "2026-03-18T15:16:13.500623",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
-      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "brainstormingfacilitator",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "da56de15",
-      "timestamp": "2026-03-18T15:16:13.519064",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
-      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
-      "keywords": [
-        "brainstormingfacilitator",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "09073bbb",
-      "timestamp": "2026-03-18T15:16:13.523943",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
-      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "brainstormingfacilitator",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "6d400ee1",
-      "timestamp": "2026-03-18T15:16:13.544619",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "b9308035",
-      "timestamp": "2026-03-18T15:16:13.551182",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "77045d74",
-      "timestamp": "2026-03-18T15:16:13.570988",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "674f03d9",
-      "timestamp": "2026-03-18T15:16:13.575999",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "6e8bd52b",
-      "timestamp": "2026-03-18T15:16:13.596138",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "d52e8fdc",
-      "timestamp": "2026-03-18T15:16:13.600502",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "7be4fcd3",
-      "timestamp": "2026-03-18T15:16:13.619340",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "272c233e",
-      "timestamp": "2026-03-18T15:16:13.623551",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "a641fcee",
-      "timestamp": "2026-03-18T15:16:13.641687",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "All 4 tools failed for agent LiteratureHunter",
-      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
-      "keywords": [
-        "literaturehunter",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "6912a195",
-      "timestamp": "2026-03-18T15:16:13.646242",
-      "trigger": "auto",
-      "agent": "LiteratureHunter",
-      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
-      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "literaturehunter",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "42d1d2fe",
-      "timestamp": "2026-03-18T15:16:13.710368",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
-      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
-      "keywords": [
-        "brainstormingfacilitator",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "a90665de",
-      "timestamp": "2026-03-18T15:16:13.714273",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
-      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "brainstormingfacilitator",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "55c1a974",
-      "timestamp": "2026-03-18T15:16:13.731661",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
-      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
-      "keywords": [
-        "brainstormingfacilitator",
-        "tool_failure",
-        "all_failed"
-      ],
-      "applied_count": 0
-    },
-    {
-      "id": "98b2952a",
-      "timestamp": "2026-03-18T15:16:13.736483",
-      "trigger": "auto",
-      "agent": "BrainstormingFacilitator",
-      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
-      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
-      "keywords": [
-        "brainstormingfacilitator",
-        "high_error_rate",
-        "other"
-      ],
-      "applied_count": 0
-    },
-    {
       "id": "1da9aeb9",
       "timestamp": "2026-03-18T15:16:13.752961",
       "trigger": "auto",
@@ -2799,8 +2351,456 @@
         "other"
       ],
       "applied_count": 0
+    },
+    {
+      "id": "9f8d903d",
+      "timestamp": "2026-03-18T15:21:59.107365",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
+      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
+      "keywords": [
+        "brainstormingfacilitator",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "f413d511",
+      "timestamp": "2026-03-18T15:21:59.122320",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
+      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "brainstormingfacilitator",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "db3d7e3f",
+      "timestamp": "2026-03-18T15:21:59.141550",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
+      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
+      "keywords": [
+        "brainstormingfacilitator",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "47f0b641",
+      "timestamp": "2026-03-18T15:21:59.147585",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
+      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "brainstormingfacilitator",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "c5bfc4b0",
+      "timestamp": "2026-03-18T15:21:59.165749",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
+      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
+      "keywords": [
+        "brainstormingfacilitator",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "627dbd64",
+      "timestamp": "2026-03-18T15:21:59.171269",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
+      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "brainstormingfacilitator",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "8a9fa0b4",
+      "timestamp": "2026-03-18T15:21:59.186213",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
+      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
+      "keywords": [
+        "brainstormingfacilitator",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "8c33f007",
+      "timestamp": "2026-03-18T15:21:59.192092",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
+      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "brainstormingfacilitator",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "8b184a1c",
+      "timestamp": "2026-03-18T15:21:59.208940",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
+      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
+      "keywords": [
+        "brainstormingfacilitator",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "ac34e7b2",
+      "timestamp": "2026-03-18T15:21:59.216315",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
+      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "brainstormingfacilitator",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "0d2e1f75",
+      "timestamp": "2026-03-18T15:21:59.240927",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "c6b0fd16",
+      "timestamp": "2026-03-18T15:21:59.248387",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "8f40b82c",
+      "timestamp": "2026-03-18T15:21:59.267366",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "c2621cf4",
+      "timestamp": "2026-03-18T15:21:59.273506",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "2cd380da",
+      "timestamp": "2026-03-18T15:21:59.290512",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "6d4c6fc5",
+      "timestamp": "2026-03-18T15:21:59.295312",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "f4c31ea7",
+      "timestamp": "2026-03-18T15:21:59.310011",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "08342966",
+      "timestamp": "2026-03-18T15:21:59.315092",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "83baf497",
+      "timestamp": "2026-03-18T15:21:59.332009",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "7711234b",
+      "timestamp": "2026-03-18T15:21:59.336731",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "4dd84e1f",
+      "timestamp": "2026-03-18T15:21:59.392528",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
+      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
+      "keywords": [
+        "brainstormingfacilitator",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "597208c8",
+      "timestamp": "2026-03-18T15:21:59.397959",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
+      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "brainstormingfacilitator",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "079f4e02",
+      "timestamp": "2026-03-18T15:21:59.413839",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "All 3 tools failed for agent BrainstormingFacilitator",
+      "resolution": "When using agent BrainstormingFacilitator, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required. Install with: pip install aiohttp",
+      "keywords": [
+        "brainstormingfacilitator",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "1f6d59a6",
+      "timestamp": "2026-03-18T15:21:59.419109",
+      "trigger": "auto",
+      "agent": "BrainstormingFacilitator",
+      "issue": "High tool failure ratio for BrainstormingFacilitator: 3/3 failed",
+      "resolution": "Agent BrainstormingFacilitator has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "brainstormingfacilitator",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "f4660233",
+      "timestamp": "2026-03-18T15:21:59.435193",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "1345865a",
+      "timestamp": "2026-03-18T15:21:59.439783",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "da432008",
+      "timestamp": "2026-03-18T15:21:59.455285",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "9a87e953",
+      "timestamp": "2026-03-18T15:21:59.460339",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "ec97e799",
+      "timestamp": "2026-03-18T15:21:59.498636",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "dc9bdc28",
+      "timestamp": "2026-03-18T15:21:59.503254",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "d61155af",
+      "timestamp": "2026-03-18T15:21:59.519948",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "All 4 tools failed for agent LiteratureHunter",
+      "resolution": "When using agent LiteratureHunter, check tool prerequisites. Common errors: ImportError: aiohttp is required. Install with: pip install aiohttp; ImportError: serpapi is required. Install with: pip install google-search-results; ImportError: aiohttp is required",
+      "keywords": [
+        "literaturehunter",
+        "tool_failure",
+        "all_failed"
+      ],
+      "applied_count": 0
+    },
+    {
+      "id": "7cfcf208",
+      "timestamp": "2026-03-18T15:21:59.524625",
+      "trigger": "auto",
+      "agent": "LiteratureHunter",
+      "issue": "High tool failure ratio for LiteratureHunter: 4/4 failed",
+      "resolution": "Agent LiteratureHunter has reliability issues. Error types: other. Consider using alternative tools or adding delays.",
+      "keywords": [
+        "literaturehunter",
+        "high_error_rate",
+        "other"
+      ],
+      "applied_count": 0
     }
   ],
   "created": "2026-03-15T08:21:14.305787",
-  "updated": "2026-03-18T15:20:53.350849"
+  "updated": "2026-03-18T15:21:59.524679"
 }

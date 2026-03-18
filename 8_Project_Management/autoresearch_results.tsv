@@ -5,3 +5,4 @@ a9837fd	0.874872	0.700	0.983	keep	install requests dep + add evaluate_system.py
 68efa84	0.992308	1.000	0.974	keep	align eval expectations for SOP routing
 c63365d	0.997436	1.000	0.991	keep	fix test expectations for anova/review routing
 2c555a5	1.000000	1.000	1.000	keep	skip test_graph_compiles when langgraph missing
+c3be4f7	1.000000	1.000	1.000	keep	expand eval to 30 tests + fix 4 bugs + 8 new priority keywords

@@ -509,7 +509,7 @@ ROUTING_RULES: Dict[str, Dict[str, List[str]]] = {
             "ideation session",
         ],
         "IdeaMutationDesignSpaceExplorer": ["design space", "explore options"],
-        "OmniThinker": ["general reasoning", "think", "analyze"],
+        "OmniThinker": ["general reasoning", "think", "omnithink", "help me think", "general analysis"],
         "SystemDynamicsMapper": [
             "system dynamics",
             "feedback loop",
