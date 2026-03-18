@@ -95,6 +95,17 @@ ROUTING_TESTS = [
     ("text to summarize from a single document", "DocumentSynthesizer"),
     ("scope my research project boundaries", "ResearchScoper"),
     ("create ascii diagram of system architecture", "HybridVisualizer"),
+    # ---- Exp#16: 10 compound multi-keyword queries ----
+    ("run difference-in-differences causal analysis", "EconometricsModeler"),
+    ("write a briefing doc on cybersecurity", "SOP_DEFENSE_ARCH"),  # SOP correct for security-focused writing
+    ("create docker reproducibility artifact", "ReproducibilityArtifactEngineer"),
+    ("extract tables from this pdf", "FileToMarkdownConverter"),
+    ("check my paper for overclaiming bias", "SOP_PAPER_HARDENING"),  # SOP correct for paper audit
+    ("design a likert scale survey instrument", "SurveyDesignerAnalyst"),
+    ("estimate hardware GPU memory for training", "HardwareresourceEstimator"),
+    ("find openalex open access papers", "OpenAlexSearch"),
+    ("generate matplotlib figure for paper", "SOP_FIGURE_GENERATION"),  # SOP correct for full figure
+    ("build a research framework architecture", "SOP_FRAMEWORK_DEV"),  # SOP correct for framework
 ]
 
 

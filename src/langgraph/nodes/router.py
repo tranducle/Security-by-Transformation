@@ -1754,6 +1754,13 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "attacker-defender": ("Security & Risk", "GameTheoryStrategist"),
         "single document": ("Writing & Synthesis", "DocumentSynthesizer"),
         "single-doc": ("Writing & Synthesis", "DocumentSynthesizer"),
+        # Exp#17: Fix compound query routing
+        "difference-in-differences": ("Methodology & Analysis", "EconometricsModeler"),
+        "did analysis": ("Methodology & Analysis", "EconometricsModeler"),
+        "extract tables": ("Research & Discovery", "FileToMarkdownConverter"),
+        "extract from pdf": ("Research & Discovery", "FileToMarkdownConverter"),
+        "likert": ("Methodology & Analysis", "SurveyDesignerAnalyst"),
+        "survey instrument": ("Methodology & Analysis", "SurveyDesignerAnalyst"),
     }
 
     # Check priority keywords
