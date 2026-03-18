@@ -86,7 +86,7 @@ ROUTING_TESTS = [
     ("generate tikz plot for results", "TikZPlotter"),
     # ---- Exp#13: 10 rare agent & tricky edge cases ----
     ("run regression analysis with instrumental variables", "EconometricsModeler"),
-    ("write specific aims for NIH grant", "SOP_GRANT_APPLICATION"),  # SOP correct for full grant
+    ("write specific aims for NIH grant", "SpecificAimsComposer"),  # priority keyword now routes here
     ("check GDPR compliance of my dataset", "DataPrivacyOfficer"),
     ("create a case study document", "SOP_CASE_STUDY"),  # SOP correct for full case study
     ("model attacker-defender game dynamics", "GameTheoryStrategist"),
@@ -150,6 +150,28 @@ ROUTING_TESTS = [
     ("classify SME organizational types for my research", "SMETypologyArchitect"),
     ("assess the broader impacts and societal translation of my work", "BroaderImpactTranslator"),
     ("generate a rebuttal strategy for reviewer 2 comments", "ReviewerStrategist"),
+    # ---- Exp#39-41: Grant-to-program & writing specialist agents ----
+    ("write specific aims page for my NIH R01 proposal", "SpecificAimsComposer"),
+    ("adapt my proposal language for NSF vs DOD sponsor", "SponsorLanguageMutator"),
+    ("compose a brief for the program officer about my research", "ProgramOfficerBriefComposer"),
+    ("construct broader impacts statement for NSF grant", "BroaderImpactsConstructor"),
+    ("assess how fundable my research idea is before writing a grant", "FundabilityGapAnalyzer"),
+    ("distill the key insights from my analysis", "InsightDistiller"),
+    ("detect if my paper inflates SOTA claims with cherry-picked benchmarks", "SOTAInflationDetector"),
+    ("audit the knowledge compression and information density of my paper", "KnowledgeCompressionAuditor"),
+    ("check if I am selectively reporting results", "IntellectualHonestyEnforcer"),
+    ("stress test my paper's arguments under hostile conditions", "ArgumentLoadTester"),
+    # ---- Exp#42-45: Final meta and niche agents ----
+    ("help me define the core identity and focus of my paper", "PaperIdentityArchitect"),
+    ("frame negative experimental results constructively", "NegativeResultsAlchemist"),
+    ("sort which sections should be main paper vs appendix", "AppendixValueSorter"),
+    ("estimate deployment friction for a cybersecurity tool", "DeploymentFrictionEstimator"),
+    ("assess temporal validity and time decay of my claims", "TemporalValidityInspector"),
+    ("explore the design space of possible approaches", "IdeaMutationDesignSpaceExplorer"),
+    ("map the system dynamics and feedback loops in this domain", "SystemDynamicsMapper"),
+    ("seed a research program from my paper's findings", "ResearchProgramSeeder"),
+    ("examine the evidence chain and contribution dependency", "ContributionDependencyGrapher"),
+    ("what is the novelty delta of my contribution compared to prior work?", "NoveltyDeltaCartographer"),
 ]
 
 
