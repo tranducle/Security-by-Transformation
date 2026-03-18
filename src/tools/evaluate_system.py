@@ -200,6 +200,33 @@ ROUTING_TESTS = [
     ("validate my research framework through structured testing", "FrameworkValidationArchitect"),
     ("which model has the right capabilities for my NLP task?", "ModelCapabilityRouter"),
     ("break the generalizability of my claims with boundary conditions", "GeneralizationBreaker"),
+    # ---- Exp#59-65: Synonym/paraphrase resilience tests ----
+    ("search for academic papers about deep learning", "LiteratureHunter"),  # priority keyword catches 'academic papers'
+    ("make a bibliography entry properly formatted", "BibTeXOptimizer"),  # priority keyword catches 'bibliography'
+    ("produce a latex formatted manuscript", "LatexPaperGenerator"),  # priority keyword catches 'latex'
+    ("find security vulnerabilities in my network protocol", "ProtocolNetworkSemanticsVerifier"),  # semantic: network protocol → verifier agent
+    ("how much will cybersecurity incidents cost my company?", "CyberInsuranceAnalyst"),  # priority keyword catches 'cost'
+    ("clean up messy data before training a model", "SOP_DATA_PREPROCESSING"),  # SOP correct for multi-step cleaning
+    ("generate a visual chart of experimental results", "SOP_FIGURE_GENERATION"),  # SOP correct for chart generation
+    ("write the beginning section that summarizes my paper", "AbstractTitleGenerator"),  # priority keyword catches 'summarizes my paper'
+    ("look for novelty gaps where no one has published", "GapScout"),
+    ("put together materials for a research presentation deck", "PresentationArchitect"),  # semantic: presentation → architect agent
+    ("compare my work to what already exists, is it novel?", "SOP_NOVELTY_DEFENSE"),  # priority keyword catches 'is it novel'
+    ("implement a convolutional neural network in pytorch", "PyTorchImplementer"),  # semantic: pytorch → PyTorchImplementer
+    ("run anova or t-test to check significance of my results", "StatisticalAnalyst"),
+    ("what journal should I target for publication?", "JournalSelector"),
+    ("simplify my paper for a general audience", "ExplainabilityTranslator"),
+    # ---- Exp#66-70: Adversarial/ambiguous cross-domain queries ----
+    ("I need both a literature review and a gap analysis on ransomware", "LiteratureHunter"),  # priority keyword catches 'literature review'
+    ("debug the pytorch code and then visualize the results", "CoderReproAgent"),
+    ("check my paper for both statistical and methodological issues", "SOP_PAPER_HARDENING"),  # SOP correct for comprehensive audit
+    ("find datasets on IoT security and preprocess them for ML", "DatasetResearchSpecialist"),  # priority keyword catches 'find datasets'
+    ("write both the abstract and the methodology for my paper", "SOP_MANUSCRIPT_PREP"),  # SOP correct for manuscript writing
+    ("create slides from my paper and also a mermaid diagram", "HybridVisualizer"),  # semantic: mermaid → HybridVisualizer
+    ("analyze costs and also model game theory dynamics", "CostBenefitAnalyst"),  # priority keyword catches 'analyze costs'
+    ("combine NLP transfer learning with cybersecurity threat modeling", "ThreatModeler"),  # semantic: threat modeling overrides transfer learning
+    ("generate a tikz figure and also bibtex references", "TikZPlotter"),
+    ("do a systematic review with PRISMA and then write the methodology section", "SLRProtocolDroid"),
 ]
 
 

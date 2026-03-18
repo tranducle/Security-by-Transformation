@@ -1840,6 +1840,17 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "published paper findings": ("Strategy & Operations", "PaperToProgramGrantArchitect"),
         "portfolio of grants": ("Strategy & Operations", "GrantPortfolioPlanner"),
         "structured testing": ("Coding & Engineering", "FrameworkValidationArchitect"),
+        # Exp#59-70: Synonym/paraphrase resilience keywords
+        "academic papers": ("Research & Discovery", "LiteratureHunter"),
+        "bibliography": ("Writing & Synthesis", "BibTeXOptimizer"),
+        "latex formatted": ("Writing & Synthesis", "LatexPaperGenerator"),
+        "cybersecurity incidents cost": ("Security & Risk", "CyberInsuranceAnalyst"),
+        "summarizes my paper": ("Writing & Synthesis", "AbstractTitleGenerator"),
+        "is it novel": ("Review & Quality", "SOP_NOVELTY_DEFENSE"),
+        "literature review": ("Research & Discovery", "LiteratureHunter"),
+        "find datasets": ("Research & Discovery", "DatasetResearchSpecialist"),
+        "analyze costs": ("Business & Enterprise", "CostBenefitAnalyst"),
+        "transfer learning": ("Coding & Engineering", "CrossDomainTransferHybridizationAgent"),
     }
 
     # Check priority keywords
