@@ -1767,6 +1767,28 @@ def route_request(message: str) -> Tuple[str, str, List[str]]:
         "optimization model": ("Methodology & Analysis", "AppliedMathModeler"),
         "harden paper": ("Writing & Synthesis", "SOP_PAPER_HARDENING"),
         "model selection": ("Coding & Engineering", "SOP_MODEL_SELECTION"),
+        # Exp#35-38: Implicit intent & business/innovation agent routing
+        "terminology": ("Review & Quality", "TerminologyDriftDetector"),
+        "tables might be more compact": ("Writing & Synthesis", "TableCompressionEngine"),
+        "table compression": ("Writing & Synthesis", "TableCompressionEngine"),
+        "hold up against baselines": ("Review & Quality", "BaselineFairnessAuditor"),
+        "baseline fairness": ("Review & Quality", "BaselineFairnessAuditor"),
+        "canonical": ("Writing & Synthesis", "CanonicalCoreExtractor"),
+        "core essence": ("Writing & Synthesis", "CanonicalCoreExtractor"),
+        "what's missing": ("Innovation & Ideation", "MissingPartSuggester"),
+        "cybersecurity culture": ("Business & Enterprise", "HumanFactorCultureQuantifier"),
+        "organizational culture": ("Business & Enterprise", "HumanFactorCultureQuantifier"),
+        "future scenario": ("Business & Enterprise", "FutureScenarioForecaster"),
+        "business scenario": ("Business & Enterprise", "FutureScenarioForecaster"),
+        "minimum viable security": ("Security & Risk", "MinViableSecurityArchitect"),
+        "counter-intuitive": ("Innovation & Ideation", "CounterIntuitionDetector"),
+        "counter intuitive": ("Innovation & Ideation", "CounterIntuitionDetector"),
+        "bridge concepts": ("Innovation & Ideation", "ConceptualBridgeBuilder"),
+        "conceptual bridge": ("Innovation & Ideation", "ConceptualBridgeBuilder"),
+        "sme typology": ("Business & Enterprise", "SMETypologyArchitect"),
+        "sme organizational": ("Business & Enterprise", "SMETypologyArchitect"),
+        "rebuttal": ("Review & Quality", "ReviewerStrategist"),
+        "reviewer 2": ("Review & Quality", "ReviewerStrategist"),
     }
 
     # Check priority keywords

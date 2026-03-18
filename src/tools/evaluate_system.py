@@ -128,6 +128,28 @@ ROUTING_TESTS = [
     ("build an applied mathematical optimization model for resource allocation", "SOP_MATH_FORMULATION"),  # SOP correct for math modeling
     ("analyze my data using exploratory data analysis and compute key metrics", "DataMetricsAnalyst"),
     ("check if my research claims are falsifiable per Popper criteria", "ScientificFalsifiabilityEngine"),
+    # ---- Exp#25-29: Implicit intent tests (user describes problem, not technique) ----
+    ("my paper has too many equations, can you help simplify?", "EquationReadabilityInspector"),
+    ("this section is too long and has scope creep, help me cut it", "ScopeCreepGuillotine"),
+    ("what concurrent terminology am I using inconsistently?", "TerminologyDriftDetector"),
+    ("can you check if my tables might be more compact?", "TableCompressionEngine"),
+    ("what are the hidden assumptions in my argument?", "HiddenAssumptionAssassin"),
+    ("does my contribution really hold up against baselines?", "BaselineFairnessAuditor"),
+    ("find the core essence and canonical contributions of my paper", "CanonicalCoreExtractor"),
+    ("am I being too bold in my claims? check for overclaiming", "ClaimEvidenceLedger"),
+    ("suggest what's missing from my methodology section", "MissingPartSuggester"),
+    ("help me think through this problem from multiple angles", "OmniThinker"),
+    # ---- Exp#30-34: Business/Innovation/Security domain coverage ----
+    ("analyze SME organization cybersecurity culture", "HumanFactorCultureQuantifier"),
+    ("estimate cloud SaaS shadow IT risk", "SaaSShadowITCartographer"),
+    ("create a future business scenario forecast", "FutureScenarioForecaster"),
+    ("design minimum viable security for small business", "MinViableSecurityArchitect"),
+    ("map supply chain vendor risk exposure", "SupplyChainRiskAnalyst"),
+    ("find counter-intuitive findings in my results", "CounterIntuitionDetector"),
+    ("bridge concepts between economics and cybersecurity", "ConceptualBridgeBuilder"),
+    ("classify SME organizational types for my research", "SMETypologyArchitect"),
+    ("assess the broader impacts and societal translation of my work", "BroaderImpactTranslator"),
+    ("generate a rebuttal strategy for reviewer 2 comments", "ReviewerStrategist"),
 ]
 
 

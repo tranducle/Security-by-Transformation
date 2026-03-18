@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-03-18T15:34:38.977811",
+  "user_message": "find literature on machine learning",
+  "domain": "Research & Discovery",
+  "agent": "LiteratureHunter",
+  "keywords": [
+    "literature"
+  ],
+  "tools_executed": 4,
+  "output_dir": "/Users/let/Documents/LoopImproveResearchAgentSystemv20/outputs/2026-03-18/15-34-38_LiteratureHunter"
+}
