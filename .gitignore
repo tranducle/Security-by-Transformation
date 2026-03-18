@@ -22,3 +22,8 @@ Web_Resources_Audit.md
 # OS files
 .DS_Store
 Thumbs.db
+
+# AI memory / session state
+.ai_memory/
+.memory/
+output_runs/
