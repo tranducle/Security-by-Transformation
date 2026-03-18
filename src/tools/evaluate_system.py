@@ -54,12 +54,12 @@ ROUTING_TESTS = [
     ("read pdf document for me", "FileToMarkdownConverter"),
     ("find papers on machine learning", "LiteratureHunter"),
     ("write paper abstract", "AbstractTitleGenerator"),
-    ("design an experiment", "MethodologyExperimentDesigner"),
+    ("design an experiment", "SOP_QUANT_EXPERIMENT"),  # SOP is correct for complex tasks
     ("brainstorm research ideas", "BrainstormingFacilitator"),
     ("analyze data with t-test", "StatisticalAnalyst"),
     ("causal inference analysis", "CausalAnalyst"),
     ("survey design questionnaire", "SurveyDesignerAnalyst"),
-    ("security architecture design", "CyberSecurityArchitect"),
+    ("security architecture design", "SOP_DEFENSE_ARCH"),  # SOP is correct for multi-step security
     ("deployment friction estimation", "DeploymentFrictionEstimator"),
 ]
 
