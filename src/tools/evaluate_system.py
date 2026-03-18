@@ -227,6 +227,36 @@ ROUTING_TESTS = [
     ("combine NLP transfer learning with cybersecurity threat modeling", "ThreatModeler"),  # semantic: threat modeling overrides transfer learning
     ("generate a tikz figure and also bibtex references", "TikZPlotter"),
     ("do a systematic review with PRISMA and then write the methodology section", "SLRProtocolDroid"),
+    # ---- Exp#71-78: Natural-language conversational queries ----
+    ("my reviewer says my baseline comparison is unfair, how do I respond?", "ReviewerStrategist"),
+    ("I just got reviewer feedback and need help revising my paper", "SOP_MANUSCRIPT_REVISION"),
+    ("my model keeps dying, not enough GPU memory for batch size 32", "HardwareresourceEstimator"),
+    ("I don't know where to publish this paper, can you help?", "JournalSelector"),
+    ("I have interview transcripts, how do I analyze them?", "QualitativeCoder"),
+    ("my advisor says my paper wanders and needs focus", "PaperIdentityArchitect"),
+    ("reviewers want me to add more citations, can you check?", "CitationVerifier"),
+    ("I want to verify my mathematical derivations are correct", "MathProofAuditor"),
+    ("need to create project management files for my new research", "SOP_PROJECT_KICKOFF"),
+    ("help me prepare for the Q&A session after my conference talk", "ExplainabilityTranslator"),
+    # ---- Exp#79-86: Remaining SOP/workflow coverage ----
+    ("do a deep search for state-of-the-art cybersecurity papers", "DeepSearchPlanner"),
+    ("I need a multi-step search strategy to find papers", "DeepSearchPlanner"),
+    ("organize my research files into SDP folder structure", "ResearchLibrarian"),
+    ("create a research plan with work breakdown structure", "ResearchPlanGenerator"),
+    ("create WBS with timeline and milestones", "StrategicArchitect"),
+    ("I need to manage my project agile-style with sprints", "ProjectPlanner"),
+    ("assess if this research project is feasible within budget", "ResourceConstraintAuditor"),
+    ("predict which citations will have the most long-term impact", "ScientificLegacyEstimator"),
+    # ---- Exp#87-95: Final stress tests ----
+    ("I wrote a paper on game theory for cybersecurity insurance pricing for SMEs and I need a harsh review before submission", "HarshReviewer"),
+    ("this is a replication study that found different results from the original, help me write it up constructively", "NegativeResultsAlchemist"),
+    ("I need scopus high-impact papers on adversarial machine learning in healthcare", "ScopusSearch"),
+    ("model how attackers and defenders interact strategically in a supply chain context", "GameTheoryStrategist"),
+    ("generate a data table summarizing my survey responses with EFA analysis", "SurveyDesignerAnalyst"),
+    ("assess whether my research would survive adversarial cross-examination from a skeptical expert", "ArgumentLoadTester"),
+    ("I have raw network packet captures, analyze the protocol semantics", "ProtocolNetworkSemanticsVerifier"),
+    ("use SMOTE to handle class imbalance in my cybersecurity dataset", "DataPreprocessingEngineer"),
+    ("what innovative cross-disciplinary ideas can I import from behavioral economics into cybersecurity?", "CrossDisciplinaryImportSmuggler"),
 ]
 
 
