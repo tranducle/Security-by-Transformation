@@ -299,7 +299,6 @@ _TOOL_REGISTRY: Dict[str, Optional[Callable]] = _build_tool_registry()
 # ============================================================================
 
 if TOOLS_AVAILABLE:
-    import asyncio as _asyncio
 
     for _name, _func in _TOOL_REGISTRY.items():
         if _func is not None and inspect.iscoroutinefunction(_func):

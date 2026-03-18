@@ -1,0 +1,110 @@
+{
+  "tool_results": [
+    {
+      "tool_name": "format_papers_as_markdown",
+      "args": {},
+      "result": {
+        "message": "Tool requires parameters that cannot be auto-filled from the user query.",
+        "parameter_guide": [
+          {
+            "name": "papers",
+            "type": "string",
+            "required": "yes",
+            "guide": "List of paper dicts from search results above"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "required": "no",
+            "guide": "Paper/section title"
+          }
+        ],
+        "description": "Format a list of papers (objects or dicts) as markdown.",
+        "category": "literature"
+      },
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null
+    },
+    {
+      "tool_name": "save_papers_to_json",
+      "args": {},
+      "result": {
+        "message": "Tool requires parameters that cannot be auto-filled from the user query.",
+        "parameter_guide": [
+          {
+            "name": "papers",
+            "type": "string",
+            "required": "yes",
+            "guide": "List of paper dicts from search results above"
+          },
+          {
+            "name": "filepath",
+            "type": "string",
+            "required": "yes",
+            "guide": "File path — ask user or use project outputs/ directory"
+          }
+        ],
+        "description": "Save papers to a JSON file.",
+        "category": "literature"
+      },
+      "status": "skipped",
+      "duration_ms": 0.0,
+      "error": null
+    }
+  ],
+  "tool_errors": [
+    {
+      "tool_name": "search_openalex_sync",
+      "args": {
+        "query": "find literature on deep reinforcement learning",
+        "limit": 30
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.41,
+      "error": "ImportError: aiohttp is required. Install with: pip install aiohttp"
+    },
+    {
+      "tool_name": "search_google_scholar",
+      "args": {
+        "query": "find literature on deep reinforcement learning",
+        "limit": 20
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.16,
+      "error": "ImportError: serpapi is required. Install with: pip install google-search-results"
+    },
+    {
+      "tool_name": "search_scopus_sync",
+      "args": {
+        "query": "find literature on deep reinforcement learning",
+        "limit": 25
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.35,
+      "error": "ImportError: aiohttp is required"
+    },
+    {
+      "tool_name": "search_semantic_scholar_sync",
+      "args": {
+        "query": "find literature on deep reinforcement learning",
+        "limit": 30
+      },
+      "result": null,
+      "status": "error",
+      "duration_ms": 0.35,
+      "error": "ImportError: aiohttp is required. Install with: pip install aiohttp"
+    }
+  ],
+  "execution_metadata": {
+    "tools_executed": 4,
+    "tools_success": 0,
+    "tools_failed": 4,
+    "tools_skipped": 2,
+    "total_duration_ms": 1.27,
+    "pipeline_route": "Research & Discovery/LiteratureHunter"
+  }
+}

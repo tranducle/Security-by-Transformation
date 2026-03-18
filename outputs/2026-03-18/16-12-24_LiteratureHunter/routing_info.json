@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-03-18T16:12:24.949352",
+  "user_message": "find literature on deep reinforcement learning",
+  "domain": "Research & Discovery",
+  "agent": "LiteratureHunter",
+  "keywords": [
+    "literature"
+  ],
+  "tools_executed": 4,
+  "output_dir": "/Users/let/Documents/LoopImproveResearchAgentSystemv20/outputs/2026-03-18/16-12-24_LiteratureHunter"
+}
