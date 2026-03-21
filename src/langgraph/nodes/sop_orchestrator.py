@@ -91,11 +91,26 @@ def sop_orchestrator_node(state: ResearchState) -> ResearchState:
                 query = f"{query}\n\nContext from previous agents:\n{accumulated_context[:2000]}"
 
             try:
-                results, errors = execute_tools_parallel(
-                    tools_info=tools,
-                    query=query,
-                    agent_config=config,
+                from src.langgraph.nodes.tool_execution_node import _build_auto_fill_kwargs
+                
+                to_execute = []
+                for t in tools:
+                    if not t.get("callable"):
+                        continue
+                    kwargs = _build_auto_fill_kwargs(t, query)
+                    if kwargs is not None:
+                        to_execute.append({
+                            "tool_name": t.get("name"),
+                            "func": t.get("callable"),
+                            "kwargs": kwargs,
+                        })
+
+                results = execute_tools_parallel(
+                    tools=to_execute,
+                    config=config,
                 )
+                
+                errors = [r for r in results if r.get("status") != "success"]
                 all_tool_results.extend(results)
                 all_tool_errors.extend(errors)
 

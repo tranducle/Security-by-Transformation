@@ -1,7 +1,6 @@
 # Research Diary
 
-> This file records key research insights, direction changes, and important findings.
-> Updated automatically by the AI agent system after significant research actions.
+## Project: AnhChienPaper
+## Started: 2026-03-21
 
----
-
+Notes and daily reflections go here.

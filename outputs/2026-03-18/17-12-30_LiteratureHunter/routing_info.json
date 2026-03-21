@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-18T17:12:30.734447",
+  "user_message": "find papers on Security in Digital Transformation focusing on theoretical and methodological frameworks",
+  "domain": "Research & Discovery",
+  "agent": "LiteratureHunter",
+  "keywords": [
+    "find papers",
+    "framework",
+    "logic",
+    "nsf"
+  ],
+  "tools_executed": 4,
+  "output_dir": "/Users/let/Documents/Security-in-Digital-Transformation/outputs/2026-03-18/17-12-30_LiteratureHunter"
+}

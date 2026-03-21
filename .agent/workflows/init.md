@@ -420,7 +420,7 @@ All outputs go to structured directories:
 
 ---
 
-## Available Workflows (48 Total)
+## Available Workflows (64 Total)
 
 ### Research & Discovery
 
@@ -433,6 +433,9 @@ All outputs go to structured directories:
 | `/find-dataset`       | Discover datasets                                   |
 | `/novelty-check`      | Check idea novelty                                  |
 | `/research-plan`      | Create detailed plan                                |
+| `/idea-discovery`     | Discover research ideas when starting without a topic (SOP_IDEA_DISCOVERY) |
+| `/data-acquisition`   | Find, evaluate, and prepare datasets (SOP_DATA_ACQUISITION) |
+| `/novelty-defense`    | Defend novelty against prior art — 4-agent pipeline (SOP_NOVELTY_DEFENSE) |
 
 ### Methodology & Analysis
 
@@ -445,16 +448,22 @@ All outputs go to structured directories:
 | `/game-theory`       | Strategic interaction analysis  |
 | `/verify-math`       | Verify math models (SymPy/Wolfram) |
 | `/data-preprocessing`| Data cleaning and preparation   |
+| `/quant-experiment`  | End-to-end quantitative experiment (SOP_QUANT_EXPERIMENT) |
+| `/qual-study`        | Qualitative research studies (SOP_QUAL_STUDY)             |
+| `/ideation-session`  | Structured 5-agent brainstorming (SOP_IDEATION_SESSION)   |
 
 ### Security & Risk
 
-| Workflow             | Purpose                 |
-| -------------------- | ----------------------- |
-| `/threat-model`    | Cyber threat modeling   |
-| `/security-design` | Defense architecture    |
-| `/ethics-audit`    | IRB/GDPR compliance     |
-| `/protocol-audit`  | Protocol security audit |
-| `/sme-risk`        | SME risk assessment     |
+| Workflow                  | Purpose                 |
+| ------------------------- | ----------------------- |
+| `/threat-model`         | Cyber threat modeling   |
+| `/security-design`      | Defense architecture    |
+| `/ethics-audit`         | IRB/GDPR compliance     |
+| `/protocol-audit`       | Protocol security audit |
+| `/sme-risk`             | SME risk assessment     |
+| `/cyber-risk-sim`       | Cyber risk simulation — asset mapping, kill chains (SOP_CYBER_RISK_SIM) |
+| `/defense-architecture` | Defense-in-depth architecture design (SOP_DEFENSE_ARCH)               |
+| `/ethical-audit-full`   | Comprehensive 4-agent ethics audit (SOP_ETHICAL_AUDIT)                |
 
 ### Writing & Publication
 
@@ -469,6 +478,7 @@ All outputs go to structured directories:
 | `/harden-paper`   | Pre-submission hardening (10+ agent SOP) |
 | `/cyber-paper-hardening` | Specialized cyber-paper hardening (20 agents, 5 layers) |
 | `/revision`       | Handle reviewer feedback |
+| `/synthesis-report` | Generate synthesis reports from multiple sources (SOP_SYNTHESIS_REPORTING) |
 | `/citation-audit` | Fix references/BibTeX    |
 
 ### Visualization & Presentation
@@ -486,13 +496,16 @@ All outputs go to structured directories:
 | `/auto-experiment`    | Autonomous experiment loop          |
 | `/framework-dev`      | Design/develop research frameworks  |
 | `/model-selection`    | Choose best model for task          |
+| `/data-pipeline`      | End-to-end ML data pipeline (SOP_DATA_PREPROCESSING) |
 
 ### Review & Audit
 
-| Workflow            | Purpose                  |
-| ------------------- | ------------------------ |
-| `/peer-review`    | Self-critique paper      |
-| `/citation-audit` | Fix references/BibTeX    |
+| Workflow                  | Purpose                  |
+| ------------------------- | ------------------------ |
+| `/peer-review`          | Self-critique paper      |
+| `/citation-audit`       | Fix references/BibTeX    |
+| `/comprehensive-review` | Full review simulation + rebuttal prep (SOP_COMPREHENSIVE_REVIEW) |
+| `/self-repair`          | Agent self-diagnosis and prompt optimization (SOP_SELF_REPAIR) |
 
 ### Innovation & Analysis
 
@@ -513,6 +526,14 @@ All outputs go to structured directories:
 | `/memory`             | Boot/checkpoint session memory           |
 | `/self-improve`       | Automated system improvement loop        |
 | `/migrate-agents`     | Migrate agents from YAML to JSON         |
+
+### Compound Series — Multi-SOP Pipelines
+
+| Workflow                  | Purpose                                                                  |
+| ------------------------- | ------------------------------------------------------------------------ |
+| `/full-research-cycle`  | End-to-end: idea → literature → plan → paper → hardened (5 SOPs, 17+ agents) |
+| `/paper-to-submission`  | Submission pipeline: harden → cite audit → review → polish (4 SOPs, 15+ agents) |
+| `/security-full-audit`  | Complete security: risk sim → defense → protocol → ethics (4 SOPs, 16 agents) |
 
 ---
 
