@@ -1,4 +1,0 @@
-# OpenAI-compatible protocol
-export OPENAI_API_KEY="sk-sp-4c4744ac5b434084b75aba7a311de6e5"
-export OPENAI_BASE_URL="https://coding-intl.dashscope.aliyuncs.com/v1"
-model = "MiniMax-M2.5"
