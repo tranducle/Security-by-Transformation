@@ -1,0 +1,31 @@
+{
+  "package_name": "evaluation_design_and_claim_boundaries",
+  "package_version": "1.0",
+  "package_purpose": "Anonymous reviewer-facing evidence package for the manuscript's evaluation design and claim boundaries section.",
+  "anonymized": true,
+  "evaluation_posture": "Early-stage design-oriented artifact evaluation",
+  "files": [
+    {
+      "path": "README.md",
+      "role": "reviewer entry point"
+    },
+    {
+      "path": "evaluation_note.md",
+      "role": "human-readable summary of evaluation logic and non-claims"
+    },
+    {
+      "path": "claim_boundaries_map.md",
+      "role": "claim and non-claim mapping for reviewer inspection"
+    },
+    {
+      "path": "design_science_audit_excerpt.md",
+      "role": "reviewer-safe citation audit excerpt for the design-science grounding"
+    }
+  ],
+  "package_local_references_only": true,
+  "blind_review_constraints": [
+    "No author names or contact information for the manuscript authors",
+    "No local workstation paths",
+    "No non-package operational logs or environment details"
+  ]
+}

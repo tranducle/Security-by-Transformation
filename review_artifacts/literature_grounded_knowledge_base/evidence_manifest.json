@@ -1,0 +1,42 @@
+{
+  "package_name": "literature_grounded_knowledge_base",
+  "package_version": "1.0",
+  "package_purpose": "Anonymous reviewer-facing evidence package for the manuscript's literature-grounded knowledge base section.",
+  "anonymized": true,
+  "theme_set": [
+    "SME digital transformation",
+    "readiness and maturity",
+    "cybersecurity implications",
+    "resilience and continuity",
+    "resource or governance constraints"
+  ],
+  "source_summary": {
+    "input_shortlist_count": 40,
+    "core_shortlist_count": 21,
+    "selection_rule": "Keep papers scoring >= 10 on SME + digital transformation + security/capability/prioritization heuristics, plus a small manually curated set of strategic background papers."
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "role": "reviewer entry point"
+    },
+    {
+      "path": "methodology_note.md",
+      "role": "human-readable methodology summary"
+    },
+    {
+      "path": "core_shortlist_sanitized.json",
+      "role": "machine-readable retained-paper evidence with theme mapping"
+    },
+    {
+      "path": "claim_to_evidence_map.md",
+      "role": "claim-to-source mapping for framework justification"
+    }
+  ],
+  "package_local_references_only": true,
+  "blind_review_constraints": [
+    "No author names or contact information for the manuscript authors",
+    "No local workstation paths",
+    "No non-package operational logs or environment details"
+  ]
+}
